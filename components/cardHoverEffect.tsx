@@ -4,7 +4,9 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto px-8">
-      <div className="text-center text-4xl text-zinc-300 ">PROJECTS</div>
+      <div className="text-center text-4xl  font-extrabold text-zinc-300 ">
+        PROJECTS
+      </div>
       <HoverEffect items={projects} />
     </div>
   )
