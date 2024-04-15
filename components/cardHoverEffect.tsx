@@ -4,16 +4,22 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto px-8">
+      <div className="text-center text-4xl text-zinc-300 ">PROJECTS</div>
       <HoverEffect items={projects} />
     </div>
   )
 }
 export const projects = [
   {
-    title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    title: "Medium",
+    description: `
+        A Bloging website.
+        Tech stack:
+        FRONTEND:TailWind, React
+        BACKEND: Nodejs, Hono, ZOD, JWT
+        DATABASE: Postgresql, Prisma(ORM), Prisma Accelerate.
+        DEPLOYMENT: Cloudflare Workers`,
+    link: "https://github.com/AyushRay06/Blog-web",
   },
   {
     title: "Netflix",

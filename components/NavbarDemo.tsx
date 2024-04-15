@@ -36,7 +36,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
+        <MenuItem setActive={setActive} active={active} item="Socials">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Github"
@@ -45,7 +45,7 @@ function Navbar({ className }: { className?: string }) {
             />
             <ProductItem
               title="Linkedin"
-              href="https://tailwindmasterkit.com"
+              href="https://www.linkedin.com/in/ayush-ray-06494324a/"
               src={linkedin}
             />
             <ProductItem title="X" href="https://gomoonbeam.com" src={x} />
