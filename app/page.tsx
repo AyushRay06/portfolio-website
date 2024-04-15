@@ -3,6 +3,7 @@ import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
 import { GoogleGeminiEffectDemo } from "@/components/googlegem"
+import { Skills } from "@/components/skills"
 import React from "react"
 
 export default function page() {
@@ -14,6 +15,7 @@ export default function page() {
           <GoogleGeminiEffectDemo />
           <HeroScrollDemo />
           <TabsDemo />
+          <Skills />
           <CardHoverEffectDemo />
         </div>
       </div>
