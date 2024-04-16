@@ -21,13 +21,12 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
+      <p className="text-lg md:text-8xl font-bold pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
         {title || `Hello from Ayush `}
       </p>
       <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
         {description ||
-          `Scroll this component and see the bottom SVG come to life wow this
-        works!`}
+          `Ah, greetings! You have stumbled upon my little corner of the internet. I am the mythical creature known as a "full stack developer," with a side obsession for all things DevOps and open-source.`}
       </p>
 
       <svg

@@ -31,14 +31,15 @@ export function Skills() {
   return (
     <section className="w-full py-12 md:py-24 dark">
       <div className="container grid max-w-3xl items-start gap-4 px-4 md:px-6 lg:gap-8 xl:max-w-5xl">
-        <div className="space-y-2 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-            Skills & Expertise
+        <div className="space-y-2 text-center pb-20">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">
+            Skills
           </h2>
-          <p className="text-gray-500 mx-auto max-w-[600px] dark:text-gray-400">
+          <p className="text-gray-500 mx-auto max-w-[600px] dark:text-gray-300">
             I have got the skills to pay the bills.
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
@@ -148,6 +149,7 @@ export function Skills() {
               <h3 className="font-semibold">SEO Expert</h3>
             </div>
           </div>
+
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
@@ -172,7 +174,7 @@ export function Skills() {
                 alt="Security"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/aws.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -190,7 +192,7 @@ export function Skills() {
                 alt="Automation"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/cloudflare.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -522,60 +524,7 @@ export function Skills() {
                 width="48"
               />
             </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
+
             <div className="space-y-1.5">
               <h3 className="font-semibold">User Experience</h3>
             </div>
