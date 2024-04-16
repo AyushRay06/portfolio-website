@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 
 import kubernaties from "@/public/kubernaties.png"
+import js from "@/public/javascript.svg"
 
 export function Skills() {
   return (
@@ -63,7 +64,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/javascript.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -81,7 +82,7 @@ export function Skills() {
                 alt="Frontend"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/typescript.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -99,7 +100,7 @@ export function Skills() {
                 alt="Backend"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/react.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -117,7 +118,7 @@ export function Skills() {
                 alt="Mobile"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/tailwind-css.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -135,7 +136,7 @@ export function Skills() {
                 alt="SEO"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/express.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -153,7 +154,7 @@ export function Skills() {
                 alt="Data Analysis"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/node-js.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
