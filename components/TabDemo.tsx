@@ -68,7 +68,7 @@ export function TabsDemo() {
 const DummyContent = () => {
   return (
     <Image
-      src={x}
+      src={"/ayushcv.png"}
       alt="dummy image"
       width="1000"
       height="1000"
