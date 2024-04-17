@@ -1,4 +1,6 @@
 import { AnimatedTooltipPreview } from "@/components/AnimatedToolTip"
+import { BackgroundBeamsDemo } from "@/components/BgStars"
+import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
 import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
@@ -21,7 +23,6 @@ export default function page() {
           <Skills />
           <CardHoverEffectDemo />
           <MacbookScrollDemo />
-          <AnimatedTooltipPreview />
         </div>
       </div>
     </div>

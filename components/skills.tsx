@@ -32,9 +32,9 @@ export function Skills() {
     <section className="w-full py-12 md:py-24 dark">
       <div className="container grid max-w-3xl items-start gap-4 px-4 md:px-6 lg:gap-8 xl:max-w-5xl">
         <div className="space-y-2 text-center pb-20">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">
+          <p className="text-7xl  font-extrabold tracking-tighter sm:text-4xl ">
             Skills
-          </h2>
+          </p>
           <p className="text-gray-500 mx-auto max-w-[600px] dark:text-gray-300">
             I have got the skills to pay the bills.
           </p>
