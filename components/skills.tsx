@@ -156,7 +156,7 @@ export function Skills() {
                 alt="Tailwind"
                 className="rounded-xl border"
                 height="48"
-                src="/tailwind.svg"
+                src="/tailwind.jpeg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -192,7 +192,7 @@ export function Skills() {
                 alt="Nextjs"
                 className="rounded-xl border"
                 height="48"
-                src="/next-js.svg"
+                src="/nextjs.webp"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -228,7 +228,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/express.svg"
+                src="/express-js.png"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -246,7 +246,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/prism.png"
+                src="/prisma.avif"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -300,7 +300,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/sql.svg"
+                src="/mysql.png"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -498,7 +498,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/soket.png"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
