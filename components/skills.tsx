@@ -44,10 +44,10 @@ export function Skills() {
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="Design"
+                alt="Typescript"
                 className="rounded-xl border"
                 height="48"
-                src="/kubernaties.png"
+                src="/typescript.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -56,7 +56,7 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Creative Design</h3>
+              <h3 className="font-semibold">Typescript</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -74,7 +74,7 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
+              <h3 className="font-semibold">Javascript</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -83,7 +83,7 @@ export function Skills() {
                 alt="Frontend"
                 className="rounded-xl border"
                 height="48"
-                src="/typescript.svg"
+                src="/java.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -92,13 +92,86 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Frontend Magic</h3>
+              <h3 className="font-semibold">Java</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
                 alt="Backend"
+                className="rounded-xl border"
+                height="48"
+                src="/python.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Python</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="go"
+                className="rounded-xl border"
+                height="48"
+                src="/go.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Go</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="c++"
+                className="rounded-xl border"
+                height="48"
+                src="/c.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">C++</h3>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="Tailwind"
+                className="rounded-xl border"
+                height="48"
+                src="/tailwind.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Tailwind</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="React"
                 className="rounded-xl border"
                 height="48"
                 src="/react.svg"
@@ -110,16 +183,16 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Backend Wizardry</h3>
+              <h3 className="font-semibold">React</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="Mobile"
+                alt="Nextjs"
                 className="rounded-xl border"
                 height="48"
-                src="/tailwind-css.svg"
+                src="/next-js.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -128,32 +201,13 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Mobile Mastery</h3>
+              <h3 className="font-semibold">Next.js</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="SEO"
-                className="rounded-xl border"
-                height="48"
-                src="/express.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">SEO Expert</h3>
-            </div>
-          </div>
-
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="Data Analysis"
+                alt="Cloud Computing"
                 className="rounded-xl border"
                 height="48"
                 src="/node-js.svg"
@@ -165,16 +219,16 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Data Analysis</h3>
+              <h3 className="font-semibold">Node.js</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="Security"
+                alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/aws.svg"
+                src="/express.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -183,13 +237,103 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Security Expertise</h3>
+              <h3 className="font-semibold">Express</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="Automation"
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/prism.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Prisma</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/mongodb.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">MongoDB</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/postgresql.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Postgres</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/sql.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">MySQL</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/amazon-aws.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">AWS</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
                 className="rounded-xl border"
                 height="48"
                 src="/cloudflare.svg"
@@ -201,16 +345,16 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Automation Skills</h3>
+              <h3 className="font-semibold">Cloudflare</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
-                alt="Cloud Computing"
+                alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
+                src="/docker.svg"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -219,7 +363,133 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">Cloud Computing</h3>
+              <h3 className="font-semibold">Docker</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/kubernaties.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Kubernaties</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="terraform"
+                className="rounded-xl border"
+                height="48"
+                src="/terraform.png"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Terraform</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/postman.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Postman</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/ansible.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Ansible</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/linux.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Linux</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/git.svg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Git</h3>
+            </div>
+          </div>
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
+              <img
+                alt="UX"
+                className="rounded-xl border"
+                height="48"
+                src="/script.jpg"
+                style={{
+                  aspectRatio: "48/48",
+                  objectFit: "cover",
+                }}
+                width="48"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="font-semibold">Scripting</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -237,7 +507,7 @@ export function Skills() {
               />
             </div>
             <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
+              <h3 className="font-semibold">Socket.io</h3>
             </div>
           </div>
           <div className="flex items-start space-x-4">
@@ -246,277 +516,7 @@ export function Skills() {
                 alt="UX"
                 className="rounded-xl border"
                 height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "48/48",
-                  objectFit: "cover",
-                }}
-                width="48"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
-              <img
-                alt="UX"
-                className="rounded-xl border"
-                height="48"
-                src="/placeholder.svg"
+                src="/jenkins.png"
                 style={{
                   aspectRatio: "48/48",
                   objectFit: "cover",
@@ -526,7 +526,7 @@ export function Skills() {
             </div>
 
             <div className="space-y-1.5">
-              <h3 className="font-semibold">User Experience</h3>
+              <h3 className="font-semibold">CI/CD</h3>
             </div>
           </div>
         </div>
