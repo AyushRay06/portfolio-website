@@ -1,8 +1,10 @@
 import { AnimatedPinDemo } from "@/components/AnimatedCard"
 import { AnimatedTooltipPreview } from "@/components/AnimatedToolTip"
+import { BentoGridThirdDemo } from "@/components/BentoGrid"
 import { BackgroundBeamsDemo } from "@/components/BgStars"
 import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
+import { TextRevealCardPreview } from "@/components/Infinitycard"
 import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
@@ -23,9 +25,11 @@ export default function page() {
           <NavbarDemo />
           <GoogleGeminiEffectDemo />
           <HeroScrollDemo />
-          <BackgroundBeamsDemo />
-          <AnimatedPinDemo />
+          <div className="mb-40">
+            <BackgroundBeamsDemo />
+          </div>
           <CardHoverEffectDemo />
+          <BentoGridThirdDemo />
           <MacbookScrollDemo />
         </div>
       </div>
