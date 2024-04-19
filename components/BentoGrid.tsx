@@ -311,10 +311,11 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Automated Proofreading",
+    title: "Conventional and Serverless",
     description: (
       <span className="text-sm">
-        Let AI handle the proofreading of your documents.
+        I can write backend for both serverless and conventional cloud platforms
+        using Express, Hono and other backend framework.
       </span>
     ),
     header: <SkeletonTwo />,
