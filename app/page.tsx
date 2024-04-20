@@ -4,7 +4,7 @@ import { BentoGridThirdDemo } from "@/components/BentoGrid"
 import { BackgroundBeamsDemo } from "@/components/BgStars"
 import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
-import { TextRevealCardPreview } from "@/components/Infinitycard"
+import { TextRevealCardPreview } from "@/components/Hidecard"
 import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
@@ -29,7 +29,7 @@ export default function page() {
             <BackgroundBeamsDemo />
           </div>
           <CardHoverEffectDemo />
-          <BentoGridThirdDemo />
+
           <MacbookScrollDemo />
         </div>
       </div>
