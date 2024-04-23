@@ -22,13 +22,12 @@ export default function page() {
     <div className="min-h-screen">
       <div>
         <div className="w-screen">
-          <NavbarDemo />
           <GoogleGeminiEffectDemo />
           <HeroScrollDemo />
           <div className="mb-40">
             <BackgroundBeamsDemo />
           </div>
-          <CardHoverEffectDemo />
+
           <TextRevealCardPreview />
           <MacbookScrollDemo />
         </div>
