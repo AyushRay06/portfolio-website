@@ -29,6 +29,7 @@ export default function page() {
             <BackgroundBeamsDemo />
           </div>
           <CardHoverEffectDemo />
+          <TextRevealCardPreview />
           <MacbookScrollDemo />
         </div>
       </div>
