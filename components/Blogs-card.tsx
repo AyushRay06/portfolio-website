@@ -38,7 +38,7 @@ export function ThreeDCardDemo() {
               as={Link}
               href="https://ayush06.hashnode.dev/accelerating-growth-unleashing-the-power-of-open-source-in-2023"
               target="__blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-s font-normal dark:text-white"
             >
               Read Blog →
             </CardItem>
@@ -75,7 +75,7 @@ export function ThreeDCardDemo() {
               as={Link}
               href="https://ayush06.hashnode.dev/learn-docker-the-easy-way"
               target="__blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-s font-normal dark:text-white"
             >
               Read Blog →
             </CardItem>
@@ -113,7 +113,7 @@ export function ThreeDCardDemo() {
               as={Link}
               href="https://ayush06.hashnode.dev/mastering-terraform-elevate-your-infrastructure-with-remote-state-management"
               target="__blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-s font-normal dark:text-white"
             >
               Read Blog →
             </CardItem>
