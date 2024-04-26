@@ -27,9 +27,6 @@ export default function page() {
           <div className="mb-40">
             <BackgroundBeamsDemo />
           </div>
-
-          <TextRevealCardPreview />
-          <MacbookScrollDemo />
         </div>
       </div>
     </div>

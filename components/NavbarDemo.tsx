@@ -32,7 +32,9 @@ function Navbar({ className }: { className?: string }) {
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/projects">Projects</HoveredLink>
             <HoveredLink href="/blogs">Blogs</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
+            <HoveredLink href="https://silver-brigid-82.tiiny.site">
+              Resume
+            </HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
