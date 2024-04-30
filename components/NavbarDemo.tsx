@@ -57,10 +57,14 @@ function Navbar({ className }: { className?: string }) {
               href="https://www.linkedin.com/in/ayush-ray-06494324a/"
               src={linkedin}
             />
-            <ProductItem title="X" href="https://gomoonbeam.com" src={x} />
+            <ProductItem
+              title="X"
+              href="https://twitter.com/Ayush_a_ray"
+              src={x}
+            />
             <ProductItem
               title="Instagram"
-              href="https://userogue.com"
+              href="https://www.instagram.com/oyee_ayush/"
               src={instagram}
             />
           </div>
