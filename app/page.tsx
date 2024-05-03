@@ -24,9 +24,6 @@ export default function page() {
         <div className="w-screen">
           <GoogleGeminiEffectDemo />
           <HeroScrollDemo />
-          <div className="mb-40">
-            <BackgroundBeamsDemo />
-          </div>
         </div>
       </div>
     </div>

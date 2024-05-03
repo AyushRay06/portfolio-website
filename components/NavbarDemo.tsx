@@ -35,13 +35,12 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="https://silver-brigid-82.tiiny.site">
               Resume
             </HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/skills">Skills</HoveredLink>
-            <HoveredLink href="/blogs">projects</HoveredLink>
+            <HoveredLink href="/projects">projects</HoveredLink>
             <HoveredLink href="/branding">Experience</HoveredLink>
           </div>
         </MenuItem>
