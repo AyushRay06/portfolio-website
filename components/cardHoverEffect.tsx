@@ -24,9 +24,9 @@ export const projects = [
     link: "https://github.com/AyushRay06/Blog-web",
   },
   {
-    title: "Netflix",
+    title: "FRIDAY",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "A versatile AI-powered platform designed to generate images, videos, code, and music while providing real-time chat assistance. Built with cutting-edge technologies like Next.js, Tailwind CSS, Prisma, and OpenAI API, this site offers seamless user experiences, robust authentication with Clerk, and advanced media generation with Replicate AI. Powered by TypeScript and ZOD for enhanced reliability and type safety",
     link: "https://netflix.com",
   },
   {
