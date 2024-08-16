@@ -9,6 +9,7 @@ import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
+import { WavyBackgroundDemo } from "@/components/hero"
 import { FloatingDockDemo } from "@/components/navbar"
 import { Skills } from "@/components/skills"
 import { Skillzz } from "@/components/skillzz"
@@ -23,7 +24,7 @@ export default function page() {
       <div>
         <div className="w-screen">
           <FloatingDockDemo />
-
+          <WavyBackgroundDemo />
           <HeroScrollDemo />
         </div>
       </div>
