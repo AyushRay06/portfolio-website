@@ -8,6 +8,9 @@ import { TextRevealCardPreview } from "@/components/Hidecard"
 import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
+import CardDemo1 from "@/components/blocks/cards-demo-1"
+import CardDemo2 from "@/components/blocks/cards-demo-2"
+import CardDemo3 from "@/components/blocks/cards-demo-3"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
 import { WavyBackgroundDemo } from "@/components/hero"
 import { FloatingDockDemo } from "@/components/navbar"
@@ -25,6 +28,11 @@ export default function page() {
         <div className="w-screen">
           <FloatingDockDemo />
           <WavyBackgroundDemo />
+          <div className="flex flex-row ">
+            <CardDemo3 />
+            <CardDemo3 />
+            <CardDemo3 />
+          </div>
           <HeroScrollDemo />
         </div>
       </div>
