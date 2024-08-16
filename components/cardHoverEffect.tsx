@@ -27,7 +27,7 @@ export const projects = [
     title: "FRIDAY",
     description:
       "A versatile AI-powered platform designed to generate images, videos, code, and music while providing real-time chat assistance. Built with cutting-edge technologies like Next.js, Tailwind CSS, Prisma, and OpenAI API, this site offers seamless user experiences, robust authentication with Clerk, and advanced media generation with Replicate AI. Powered by TypeScript and ZOD for enhanced reliability and type safety",
-    link: "https://netflix.com",
+    link: "https://friday-tau.vercel.app/",
   },
   {
     title: "Google",

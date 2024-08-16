@@ -9,7 +9,7 @@ import { MacbookScrollDemo } from "@/components/MackBook"
 import { NavbarDemo } from "@/components/NavbarDemo"
 import { TabsDemo } from "@/components/TabDemo"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
-import { GoogleGeminiEffectDemo } from "@/components/googlegem"
+import { FloatingDockDemo } from "@/components/navbar"
 import { Skills } from "@/components/skills"
 import { Skillzz } from "@/components/skillzz"
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip"
@@ -22,7 +22,8 @@ export default function page() {
     <div className="min-h-screen">
       <div>
         <div className="w-screen">
-          <GoogleGeminiEffectDemo />
+          <FloatingDockDemo />
+
           <HeroScrollDemo />
         </div>
       </div>
