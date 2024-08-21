@@ -3,11 +3,15 @@ import React from "react"
 import { WavyBackground } from "@/components/ui/wavy-background"
 import { Poppins } from "next/font/google"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 const font = Poppins({ subsets: ["latin"], weight: "400" })
 
 export function WavyBackgroundDemo() {
   return (
     <WavyBackground className="max-w-4xl mx-auto pb-40">
+      {/* <div className="flex h-full items-center justify-center pb-0 relative z-[-10]">
+        <Image src="/ayush.png" alt="ayush" width={300} height={300} />
+      </div> */}
       <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
         Hero waves are cool
       </p>
