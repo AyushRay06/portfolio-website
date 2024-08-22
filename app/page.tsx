@@ -20,14 +20,17 @@ import { Footer } from "@/components/footer"
 import { SparklesTextDemo } from "@/components/sparkel-text"
 import { BlurInDemo } from "@/components/blur-in-text"
 import { ExperienceCard } from "@/components/hackathon-card"
+import { ResumeCard } from "@/components/resume-card"
+import { RetroGridDemo } from "@/components/retro-hero"
 
 export default function page() {
   return (
-    <div className="min-h-screen px-6">
+    <div className="min-h-screen mx-4">
       <div>
         <div className="w-screen">
           <FloatingDockDemo />
-          <WavyBackgroundDemo />
+          <RetroGridDemo />
+          {/* <WavyBackgroundDemo /> */}
           {/* <CardHoverEffectDemo /> */}
           {/* <HeroScrollDemo /> */}
           <BlurInDemo />
@@ -87,6 +90,26 @@ export default function page() {
               </ul>
             </BlurFade>
           </div>
+          <section id="education">
+            <div className="flex max-w-2xl mx-auto min-h-0 flex-col gap-y-3">
+              <BlurFade>
+                <h2 className="text-xl font-bold">Education</h2>
+              </BlurFade>
+              {DATA.education.map((education, id) => (
+                <BlurFade key={education.school}>
+                  <ResumeCard
+                    key={education.school}
+                    href={education.href}
+                    logoUrl={education.logoUrl}
+                    altText={education.school}
+                    title={education.school}
+                    subtitle={education.degree}
+                    period={`${education.start} - ${education.end}`}
+                  />
+                </BlurFade>
+              ))}
+            </div>
+          </section>
 
           <section id="contact">
             <Footer />
