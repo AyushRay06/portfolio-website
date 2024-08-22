@@ -4,13 +4,6 @@ import { BentoGridThirdDemo } from "@/components/BentoGrid"
 import { BackgroundBeamsDemo } from "@/components/BgStars"
 import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
-import { TextRevealCardPreview } from "@/components/Hidecard"
-import { MacbookScrollDemo } from "@/components/MackBook"
-import { NavbarDemo } from "@/components/NavbarDemo"
-import { TabsDemo } from "@/components/TabDemo"
-import CardDemo1 from "@/components/blocks/cards-demo-1"
-import CardDemo2 from "@/components/blocks/cards-demo-2"
-import CardDemo3 from "@/components/blocks/cards-demo-3"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
 import { WavyBackgroundDemo } from "@/components/hero"
 import { FloatingDockDemo } from "@/components/navbar"
@@ -18,31 +11,29 @@ import { ProjectCard } from "@/components/project-card"
 import { Skills } from "@/components/skills"
 import { Skillzz } from "@/components/skillzz"
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip"
-import { BackgroundBeams } from "@/components/ui/background-beams"
-import { MacbookScroll } from "@/components/ui/macbook-scroll"
 import React from "react"
 import BlurFade from "@/components/magicui/blur-fade"
 import BlurFadeText from "@/components/magicui/blur-fade-text"
 import { DATA } from "@/data/resume"
+import Link from "next/link"
+import { Footer } from "@/components/footer"
+import { SparklesTextDemo } from "@/components/sparkel-text"
+import { BlurInDemo } from "@/components/blur-in-text"
+import { ExperienceCard } from "@/components/hackathon-card"
 
 export default function page() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen px-6">
       <div>
         <div className="w-screen">
           <FloatingDockDemo />
           <WavyBackgroundDemo />
-          <div className="flex flex-row ">
-            <CardHoverEffectDemo />
-          </div>
-
-          <HeroScrollDemo />
+          {/* <CardHoverEffectDemo /> */}
+          {/* <HeroScrollDemo /> */}
+          <BlurInDemo />
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                //delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
+              <BlurFade>
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -57,6 +48,49 @@ export default function page() {
               </BlurFade>
             ))}
           </div>
+
+          <div className="space-y-12 max-w-2xl mx-auto ml-50 py-12">
+            <BlurFade>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                    Experience
+                  </div>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                    I like building things
+                  </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    During my time in university, I attended{" "}
+                    {DATA.hackathons.length}+ hackathons. People from around the
+                    country would come together and build incredible things in
+                    2-3 days. It was eye-opening to see the endless
+                    possibilities brought to life by a group of motivated and
+                    passionate individuals.
+                  </p>
+                </div>
+              </div>
+            </BlurFade>
+            <BlurFade>
+              <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+                {DATA.hackathons.map((project, id) => (
+                  <BlurFade key={project.title + project.dates}>
+                    <ExperienceCard
+                      title={project.title}
+                      description={project.description}
+                      location={project.location}
+                      dates={project.dates}
+                      image={project.image}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))}
+              </ul>
+            </BlurFade>
+          </div>
+
+          <section id="contact">
+            <Footer />
+          </section>
         </div>
       </div>
     </div>
