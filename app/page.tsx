@@ -1,10 +1,6 @@
-import { AnimatedPinDemo } from "@/components/AnimatedCard"
-import { AnimatedTooltipPreview } from "@/components/AnimatedToolTip"
-import { BentoGridThirdDemo } from "@/components/BentoGrid"
-
 import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
-import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
+
 import { WavyBackgroundDemo } from "@/components/hero"
 import { FloatingDockDemo } from "@/components/navbar"
 import { ProjectCard } from "@/components/project-card"
