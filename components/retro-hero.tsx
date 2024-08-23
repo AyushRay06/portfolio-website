@@ -2,13 +2,14 @@
 import RetroGrid from "@/components/magicui/retro-grid"
 import Image from "next/image"
 import BlurFadeText from "./magicui/blur-fade-text"
+import Markdown from "react-markdown"
 export function RetroGridDemo() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+    <div className="relative flex h-[500px] mx-auto  max-w-4xl flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
       {/* <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
         Hi, I'm Ayush
       </span> */}
-      <div className="mx-auto w-full max-w-2xl space-y-8">
+      <div className="mx-auto w-full max-w-2xl space-y-8 p-4">
         <div className="gap-2 flex justify-between">
           <div className="flex-col flex flex-1 space-y-1.5">
             <BlurFadeText
@@ -34,6 +35,18 @@ export function RetroGridDemo() {
           </div>
         </div>
       </div>
+      <h2 className="text-xl font-bold sm:p-5">About</h2>
+
+      <Markdown className="prose  text-pretty font-sans text-normal  p-5  dark:prose-invert">
+        At the end of 2022, I quit my job as a software engineer to go fulltime
+        into building and scaling my own SaaS businesses. In the past, [I
+        pursued a double degree in computer science and business](/#education),
+        [interned at big tech companies in Silicon
+        Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in
+        over 21 hackathons for fun](/#hackathons). I also had the pleasure of
+        being a part of the first ever in-person cohort of buildspace called
+        [buildspace sf1](https://buildspace.so/sf1).
+      </Markdown>
 
       <RetroGrid />
     </div>

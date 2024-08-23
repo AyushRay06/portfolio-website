@@ -10,8 +10,8 @@ import {
   IconHome,
   IconNewSection,
   IconTerminal2,
+  IconWriting,
 } from "@tabler/icons-react"
-import Image from "next/image"
 
 export function FloatingDockDemo() {
   const links = [
@@ -31,45 +31,38 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
-      title: "Components",
+      title: "Github",
+      icon: (
+        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://github.com/AyushRay06",
+    },
+    {
+      title: "Linkedin",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/ayush-ray-06494324a/",
     },
     {
-      title: "Aceternity UI",
+      title: "Twitter",
       icon: (
-        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/Ayush_a_ray",
     },
     {
-      title: "Changelog",
+      title: "Instagram",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
 
     {
-      title: "Twitter",
+      title: "Blog",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "GitHub",
-      icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconWriting className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },

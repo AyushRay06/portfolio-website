@@ -1,7 +1,7 @@
 import { AnimatedPinDemo } from "@/components/AnimatedCard"
 import { AnimatedTooltipPreview } from "@/components/AnimatedToolTip"
 import { BentoGridThirdDemo } from "@/components/BentoGrid"
-import { BackgroundBeamsDemo } from "@/components/BgStars"
+
 import { VortexDemoSecond } from "@/components/Flow"
 import { HeroScrollDemo } from "@/components/HeroScrollDemo"
 import { CardHoverEffectDemo } from "@/components/cardHoverEffect"
@@ -28,8 +28,12 @@ export default function page() {
     <div className="min-h-screen mx-4">
       <div>
         <div className="w-screen">
-          <FloatingDockDemo />
-          <RetroGridDemo />
+          <div className="mt-10">
+            <FloatingDockDemo />
+          </div>
+          <div className=" pt-32 mb-10">
+            <RetroGridDemo />
+          </div>
           {/* <WavyBackgroundDemo /> */}
           {/* <CardHoverEffectDemo /> */}
           {/* <HeroScrollDemo /> */}
