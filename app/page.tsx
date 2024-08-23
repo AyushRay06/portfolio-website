@@ -11,9 +11,7 @@ import React from "react"
 import BlurFade from "@/components/magicui/blur-fade"
 import BlurFadeText from "@/components/magicui/blur-fade-text"
 import { DATA } from "@/data/resume"
-import Link from "next/link"
 import { Footer } from "@/components/footer"
-import { SparklesTextDemo } from "@/components/sparkel-text"
 import { BlurInDemo } from "@/components/blur-in-text"
 import { ExperienceCard } from "@/components/hackathon-card"
 import { ResumeCard } from "@/components/resume-card"
@@ -31,7 +29,7 @@ export default function page() {
             <RetroGridDemo />
           </div>
 
-          <div className="space-y-12 w-full py-12 max-w-4xl mx-auto">
+          <div className="space-y-12 w-full py-12 max-w-6xl mx-auto">
             <BlurFade>
               <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
                 <div className="space-y-2">
@@ -49,7 +47,7 @@ export default function page() {
                 </div>
               </div>
             </BlurFade>
-            <div className=" max-w-[800px] mx-auto">
+            <div className=" max-w-5xl mx-auto">
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mx-8">
                 {DATA.projects.map((project, id) => (
                   <BlurFade key={project.title}>
@@ -70,7 +68,7 @@ export default function page() {
             </div>
           </div>
 
-          <div className="space-y-12 max-w-4xl mx-auto ml-50 py-12">
+          <div className="space-y-12 max-w-6xl mx-auto ml-50 py-12">
             <BlurFade>
               <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
                 <div className="space-y-2">
@@ -92,7 +90,7 @@ export default function page() {
               </div>
             </BlurFade>
             <BlurFade>
-              <ul className="mb-4 ml-12 mx-4 divide-y divide-dashed border-l">
+              <ul className="mb-4 ml-12 mx-8 divide-y divide-dashed border-l">
                 {DATA.hackathons.map((project, id) => (
                   <BlurFade key={project.title + project.dates}>
                     <ExperienceCard
@@ -109,7 +107,7 @@ export default function page() {
             </BlurFade>
           </div>
           <section id="education">
-            <div className=" max-w-4xl mx-auto  ">
+            <div className=" max-w-6xl mx-auto  ">
               <div className="flex flex-col gap-y-10 min-h-0 mx-8">
                 <BlurFade>
                   <h2 className="text-xl font-bold">Education</h2>

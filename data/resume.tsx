@@ -1,7 +1,11 @@
 import { Icons } from "@/components/icons"
-import { IconBrandGithub } from "@tabler/icons-react"
+import {
+  IconBrandGithub,
+  IconBrandGoogleBigQuery,
+  IconClubs,
+  IconGlobe,
+} from "@tabler/icons-react"
 import { Github, Globe } from "lucide-react"
-import { title } from "process"
 
 export const DATA = {
   projects: [
@@ -11,7 +15,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a SaaS application that generates images, music, videos, and code, and features a chatbot for answering queries. The application leverages the OpenAI API and Replicate AI for content generation, and includes integrated customer support.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -233,18 +237,18 @@ export const DATA = {
   hackathons: [
     {
       title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
+      dates: "June 19-July 20, 2024",
       role: "London, Ontario",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+
       links: [],
     },
     {
       title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
-      dates: "September 14th - 16th, 2018",
+      dates: "June 19-July 20, 2024",
       role: "Research Intern",
       description:
         "Developed an AI model using YOLO for underwater trash detection and image processing, leveraging tools like TensorFlow, OpenCV, and Keras. This project was aslo sponsored by Sony.",
@@ -260,7 +264,8 @@ export const DATA = {
       image: "/gdsc.png",
       links: [
         {
-          title: "GDSC Dibrigarh niversity",
+          title: "GDSC Dibrigarh University",
+          icon: <Icons.globe className="h-4 w-4" />,
           href: "https://gdsc.community.dev/dibrugarh-university-dibrugarh-india/",
         },
       ],
@@ -287,18 +292,11 @@ export const DATA = {
     {
       title: "Portal Hackathon",
       dates: "October 29, 2016",
-      location: "Kingston, Ontario",
+      role: "Kingston, Ontario",
       description:
         "Developed an internal widget for uploading assignments using Waterloo's portal app",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
-        },
-      ],
     },
   ],
 }
