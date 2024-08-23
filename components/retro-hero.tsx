@@ -3,6 +3,7 @@ import RetroGrid from "@/components/magicui/retro-grid"
 import Image from "next/image"
 import BlurFadeText from "./magicui/blur-fade-text"
 import Markdown from "react-markdown"
+import BlurFade from "./magicui/blur-fade"
 export function RetroGridDemo() {
   return (
     <div className="relative flex h-[500px] mx-auto  max-w-4xl flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
@@ -36,17 +37,18 @@ export function RetroGridDemo() {
         </div>
       </div>
       <h2 className="text-xl font-bold sm:p-5">About</h2>
-
-      <Markdown className="prose  text-pretty font-sans text-sm  p-5  dark:prose-invert">
-        At the end of 2022, I quit my job as a software engineer to go fulltime
-        into building and scaling my own SaaS businesses. In the past, [I
-        pursued a double degree in computer science and business](/#education),
-        [interned at big tech companies in Silicon
-        Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in
-        over 21 hackathons for fun](/#hackathons). I also had the pleasure of
-        being a part of the first ever in-person cohort of buildspace called
-        [buildspace sf1](https://buildspace.so/sf1).
-      </Markdown>
+      <BlurFade>
+        <Markdown className="prose  text-pretty font-sans text-sm  p-5  dark:prose-invert">
+          At the end of 2022, I quit my job as a software engineer to go
+          fulltime into building and scaling my own SaaS businesses. In the
+          past, [I pursued a double degree in computer science and
+          business](/#education), [interned at big tech companies in Silicon
+          Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in
+          over 21 hackathons for fun](/#hackathons). I also had the pleasure of
+          being a part of the first ever in-person cohort of buildspace called
+          [buildspace sf1](https://buildspace.so/sf1).
+        </Markdown>
+      </BlurFade>
 
       <RetroGrid />
     </div>

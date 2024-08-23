@@ -1,11 +1,13 @@
 import { Icons } from "@/components/icons"
+import { IconBrandGithub } from "@tabler/icons-react"
 import { Github, Globe } from "lucide-react"
+import { title } from "process"
 
 export const DATA = {
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
+      title: "FRIDAY",
+      href: "https://friday-tau.vercel.app/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -18,13 +20,22 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Framer-Motion",
+        "Open-AI",
+        "Replicate-AI",
+        "Clerk",
+        "Crisp",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://friday-tau.vercel.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AyushRay06/Dr-Doom",
+          icon: <IconBrandGithub className="size-3" />,
         },
       ],
       image: "",
@@ -202,43 +213,28 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Dibrugarh University Institute of Engineering and Technology",
+      href: "https://dibru.ac.in/dibrugarh-university-institute-of-engineering-and-technology-duiet",
+      degree: "Bachelor of technology in computer science (BTech-CSE)",
+      logoUrl: "/duiet.png",
+      start: "2022",
+      end: "2026",
     },
+
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Vivekananda Kendra Vidyalaya",
+      href: "https://dibrugarh.vkv.in/",
+      degree: "High Secondary Education",
+      logoUrl: "/vkv.jpeg",
+      start: "",
+      end: "",
     },
   ],
   hackathons: [
     {
       title: "Hack Western 5",
       dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      role: "London, Ontario",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
@@ -247,26 +243,62 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Hack The North",
+      title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
       dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      role: "Research Intern",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "Developed an AI model using YOLO for underwater trash detection and image processing, leveraging tools like TensorFlow, OpenCV, and Keras. This project was aslo sponsored by Sony.",
+      image: "/iit.png",
     },
     {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      title: "Goggle Developer Student Club",
+      dates: "August 2023 - August 2024",
+      role: "Lead",
+      description:
+        "As the GDSC Lead from, I founded the club, built a community of 200+ members, and organized 10+ tech events on cloud, AI/ML, and software development. I also hosted hackathons, collaborated with universities, and achieved Tier One Club status globally.",
+      icon: "public",
+      image: "/gdsc.png",
+      links: [
+        {
+          title: "GDSC Dibrigarh niversity",
+          href: "https://gdsc.community.dev/dibrugarh-university-dibrugarh-india/",
+        },
+      ],
+    },
+    {
+      title: "Goggle Developer Student Club",
+      dates: "September 2023 - November 2023",
+      role: "Goggle Cloud Facilitator",
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      image: "/gdsc.png",
       links: [],
+    },
+    {
+      title: "Girl Script Summer Of Code",
+      dates: "May 2023 - July 2024",
+      role: "San Francisco, California",
+      description:
+        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+      icon: "public",
+      image: "/gssoc.jpg",
+    },
+    {
+      title: "Portal Hackathon",
+      dates: "October 29, 2016",
+      location: "Kingston, Ontario",
+      description:
+        "Developed an internal widget for uploading assignments using Waterloo's portal app",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/UWPortalSDK/crowmark",
+        },
+      ],
     },
   ],
 }

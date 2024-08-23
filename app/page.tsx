@@ -98,7 +98,7 @@ export default function page() {
                     <ExperienceCard
                       title={project.title}
                       description={project.description}
-                      location={project.location}
+                      role={project.role}
                       dates={project.dates}
                       image={project.image}
                       links={project.links}
@@ -109,8 +109,8 @@ export default function page() {
             </BlurFade>
           </div>
           <section id="education">
-            <div className=" max-w-2xl mx-auto  ">
-              <div className="flex flex-col gap-y-5 min-h-0 mx-8">
+            <div className=" max-w-4xl mx-auto  ">
+              <div className="flex flex-col gap-y-10 min-h-0 mx-8">
                 <BlurFade>
                   <h2 className="text-xl font-bold">Education</h2>
                 </BlurFade>

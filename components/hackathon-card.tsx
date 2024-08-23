@@ -6,7 +6,7 @@ interface Props {
   title: string
   description: string
   dates: string
-  location: string
+  role: string
   image?: string
   links?: readonly {
     icon: React.ReactNode
@@ -19,7 +19,7 @@ export function ExperienceCard({
   title,
   description,
   dates,
-  location,
+  role,
   image,
   links,
 }: Props) {
@@ -36,9 +36,7 @@ export function ExperienceCard({
           <time className="text-xs text-muted-foreground">{dates}</time>
         )}
         <h2 className="font-semibold leading-none">{title}</h2>
-        {location && (
-          <p className="text-sm text-muted-foreground">{location}</p>
-        )}
+        {role && <p className="text-sm font-semibold">{role}</p>}
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
             {description}
