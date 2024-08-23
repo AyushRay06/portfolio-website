@@ -37,7 +37,7 @@ export function RetroGridDemo() {
       </div>
       <h2 className="text-xl font-bold sm:p-5">About</h2>
 
-      <Markdown className="prose  text-pretty font-sans text-normal  p-5  dark:prose-invert">
+      <Markdown className="prose  text-pretty font-sans text-sm  p-5  dark:prose-invert">
         At the end of 2022, I quit my job as a software engineer to go fulltime
         into building and scaling my own SaaS businesses. In the past, [I
         pursued a double degree in computer science and business](/#education),

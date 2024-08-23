@@ -21,19 +21,19 @@ import { RetroGridDemo } from "@/components/retro-hero"
 
 export default function page() {
   return (
-    <div className="min-h-screen mx-4">
+    <div className="min-h-screen mx-4 ">
       <div>
         <div className="w-screen">
-          <div className="mt-10">
+          <div className="mt-10 ">
             <FloatingDockDemo />
           </div>
-          <div className=" pt-32 mb-10">
+          <div className=" pt-32 mb-10 mx-8">
             <RetroGridDemo />
           </div>
 
           <div className="space-y-12 w-full py-12 max-w-4xl mx-auto">
             <BlurFade>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     My Projects
@@ -49,28 +49,30 @@ export default function page() {
                 </div>
               </div>
             </BlurFade>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-              {DATA.projects.map((project, id) => (
-                <BlurFade key={project.title}>
-                  <ProjectCard
-                    href={project.href}
-                    key={project.title}
-                    title={project.title}
-                    description={project.description}
-                    dates={project.dates}
-                    tags={project.technologies}
-                    image={project.image}
-                    video={project.video}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
+            <div className=" max-w-[800px] mx-auto">
+              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mx-8">
+                {DATA.projects.map((project, id) => (
+                  <BlurFade key={project.title}>
+                    <ProjectCard
+                      href={project.href}
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      dates={project.dates}
+                      tags={project.technologies}
+                      image={project.image}
+                      video={project.video}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))}
+              </div>
             </div>
           </div>
 
-          <div className="space-y-12 max-w-2xl mx-auto ml-50 py-12">
+          <div className="space-y-12 max-w-4xl mx-auto ml-50 py-12">
             <BlurFade>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     Experience
@@ -90,7 +92,7 @@ export default function page() {
               </div>
             </BlurFade>
             <BlurFade>
-              <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              <ul className="mb-4 ml-12 mx-4 divide-y divide-dashed border-l">
                 {DATA.hackathons.map((project, id) => (
                   <BlurFade key={project.title + project.dates}>
                     <ExperienceCard
@@ -107,23 +109,25 @@ export default function page() {
             </BlurFade>
           </div>
           <section id="education">
-            <div className="flex max-w-2xl mx-auto min-h-0 flex-col gap-y-3">
-              <BlurFade>
-                <h2 className="text-xl font-bold">Education</h2>
-              </BlurFade>
-              {DATA.education.map((education, id) => (
-                <BlurFade key={education.school}>
-                  <ResumeCard
-                    key={education.school}
-                    href={education.href}
-                    logoUrl={education.logoUrl}
-                    altText={education.school}
-                    title={education.school}
-                    subtitle={education.degree}
-                    period={`${education.start} - ${education.end}`}
-                  />
+            <div className=" max-w-2xl mx-auto  ">
+              <div className="flex flex-col gap-y-5 min-h-0 mx-8">
+                <BlurFade>
+                  <h2 className="text-xl font-bold">Education</h2>
                 </BlurFade>
-              ))}
+                {DATA.education.map((education, id) => (
+                  <BlurFade key={education.school}>
+                    <ResumeCard
+                      key={education.school}
+                      href={education.href}
+                      logoUrl={education.logoUrl}
+                      altText={education.school}
+                      title={education.school}
+                      subtitle={education.degree}
+                      period={`${education.start} - ${education.end}`}
+                    />
+                  </BlurFade>
+                ))}
+              </div>
             </div>
           </section>
 
