@@ -47,21 +47,21 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
+      title: "Real-Time White Board",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "A real-time whiteboard application enabling teams to collaborate seamlessly on planning and organizing tasks. Integrated Liveblocks to facilitate instant updates and interactions, ensuring real-time collaboration. The platform allows multiple users to simultaneously create, edit, and manage content, making it ideal for brainstorming sessions, project management, and team coordination.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Convex",
+        "Clerk",
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Liveblocks",
       ],
       links: [
         {
@@ -255,9 +255,9 @@ export const DATA = {
       image: "/iit.png",
     },
     {
-      title: "Goggle Developer Student Club",
+      title: "Google Developer Student Club",
       dates: "August 2023 - August 2024",
-      role: "Lead",
+      role: "GDSC Lead",
       description:
         "As the GDSC Lead from, I founded the club, built a community of 200+ members, and organized 10+ tech events on cloud, AI/ML, and software development. I also hosted hackathons, collaborated with universities, and achieved Tier One Club status globally.",
       icon: "public",
@@ -271,11 +271,11 @@ export const DATA = {
       ],
     },
     {
-      title: "Goggle Developer Student Club",
+      title: "Google Developer Student Club",
       dates: "September 2023 - November 2023",
       role: "Goggle Cloud Facilitator",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "Guided over 150 students in mastering Google Cloud technology, including services like Compute Engine, Kubernetes, Cloud Storage, and BigQuery. Explained cloud concepts and platform-independent technologies, ensuring students achieved their milestones through a solid understanding of cloud fundamentals.",
       icon: "public",
       image: "/gdsc.png",
       links: [],
@@ -283,7 +283,7 @@ export const DATA = {
     {
       title: "Girl Script Summer Of Code",
       dates: "May 2023 - July 2024",
-      role: "San Francisco, California",
+      role: "Open-Source Contributer",
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
