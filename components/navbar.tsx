@@ -3,15 +3,16 @@ import React from "react"
 import { FloatingDock } from "@/components/ui/floating-dock"
 import {
   IconBrandGithub,
+  IconBrandGoogle,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandX,
-  IconExchange,
   IconHome,
-  IconNewSection,
+  IconPaperclip,
   IconTerminal2,
   IconWriting,
 } from "@tabler/icons-react"
+import { ModeToggle } from "./theme-toogle"
 
 export function FloatingDockDemo() {
   const links = [
@@ -24,11 +25,11 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Products",
+      title: "Resume",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconPaperclip className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://silver-brigid-82.tiiny.site/",
     },
     {
       title: "Github",
@@ -65,6 +66,13 @@ export function FloatingDockDemo() {
         <IconWriting className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://ayush06.hashnode.dev/",
+    },
+    {
+      title: "Google DSC",
+      icon: (
+        <IconBrandGoogle className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
     },
   ]
   return (

@@ -16,12 +16,16 @@ import { BlurInDemo } from "@/components/blur-in-text"
 import { ExperienceCard } from "@/components/hackathon-card"
 import { ResumeCard } from "@/components/resume-card"
 import { RetroGridDemo } from "@/components/retro-hero"
+import { ModeToggle } from "@/components/theme-toogle"
 
 export default function page() {
   return (
     <div className="min-h-screen mx-4 ">
       <div>
         <div className="w-screen">
+          <div className="flex fixed  inset-x-0 left-4 top-20">
+            <ModeToggle />
+          </div>
           <div className="mt-10 ">
             <FloatingDockDemo />
           </div>
