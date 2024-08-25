@@ -12,7 +12,7 @@ export const DATA = {
     {
       title: "FRIDAY",
       href: "https://friday-tau.vercel.app/",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "July 2024 - August 2024",
       active: true,
       description:
         "Developed a SaaS application that generates images, music, videos, and code, and features a chatbot for answering queries. The application leverages the OpenAI API and Replicate AI for content generation, and includes integrated customer support.",
@@ -42,14 +42,13 @@ export const DATA = {
           icon: <IconBrandGithub className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/friday.png",
+      video: "",
     },
     {
       title: "Real-Time White Board",
       href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      dates: "August 2023 - Ongoing",
       active: true,
       description:
         "A real-time whiteboard application enabling teams to collaborate seamlessly on planning and organizing tasks. Integrated Liveblocks to facilitate instant updates and interactions, ensuring real-time collaboration. The platform allows multiple users to simultaneously create, edit, and manage content, making it ideal for brainstorming sessions, project management, and team coordination.",
@@ -64,14 +63,14 @@ export const DATA = {
         "Liveblocks",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Globe />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://magicui.design",
+        //   icon: <Globe />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/AyushRay06/real-time-white-board",
           icon: <Github />,
         },
       ],
@@ -79,41 +78,37 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Portfolio",
+      href: "https://portfolio-website-nu-lyart.vercel.app/",
+      dates: " May 2023 - Keep Updting",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Built a responsive portfolio using Next.js and TypeScript, with sleek animations from Framer Motion and dynamic UI components from Shadcn and Magic UI. Designed to showcase projects and skills with a modern, interactive interface.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://portfolio-website-nu-lyart.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/AyushRay06/portfolio-website",
+          icon: <Github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/port.png",
+      video: "",
     },
     {
       title: "Automatic Chat",
-      href: "https://automatic.chat",
+      href: "#",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -130,11 +125,11 @@ export const DATA = {
         "Cloudflare Workers",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "#",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
       image: "",
       video:
@@ -235,17 +230,17 @@ export const DATA = {
     },
   ],
   hackathons: [
-    {
-      title: "Hack Western 5",
-      dates: "June 19-July 20, 2024",
-      role: "London, Ontario",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+    // {
+    //   title: "ayush.com",
+    //   dates: "June 19-July 20, 2024",
+    //   role: "Sofware Developer Inter",
+    //   description:
+    //     "will be adding soon",
+    //   image:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
 
-      links: [],
-    },
+    //   links: [],
+    // },
     {
       title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
       dates: "June 19-July 20, 2024",
@@ -289,14 +284,14 @@ export const DATA = {
       icon: "public",
       image: "/gssoc.jpg",
     },
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      role: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-    },
+    // {
+    //   title: "Portal Hackathon",
+    //   dates: "October 29, 2016",
+    //   role: "Kingston, Ontario",
+    //   description:
+    //     "Developed an internal widget for uploading assignments using Waterloo's portal app",
+    //   image:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+    // },
   ],
 }

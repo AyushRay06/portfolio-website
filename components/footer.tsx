@@ -12,7 +12,7 @@ export const Footer = () => {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
             Get in Touch
           </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Want to chat? Just shoot me a dm{" "}
             <Link
               href="https://x.com/Ayush_a_ray"
@@ -20,7 +20,7 @@ export const Footer = () => {
             >
               with a direct question on twitter
             </Link>{" "}
-            and I&apos;ll respond whenever I can. I will ignore all soliciting.
+            and I&apos;ll respond whenever I can.
           </p>
         </div>
       </BlurFade>

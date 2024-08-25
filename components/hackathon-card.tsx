@@ -33,12 +33,18 @@ export function ExperienceCard({
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">
         {dates && (
-          <time className="text-xs text-muted-foreground">{dates}</time>
+          <time className="text-sm text-muted-foreground">{dates}</time>
         )}
-        <h2 className="font-semibold leading-none">{title}</h2>
-        {role && <p className="text-sm font-semibold">{role}</p>}
+        <h2 className="font-medium text-normal md:text-xl lg:text-xxl leading-none">
+          {title}
+        </h2>
+        {role && (
+          <p className="text-normal md:text-xl lg:text-xl font-semibold">
+            {role}
+          </p>
+        )}
         {description && (
-          <span className="prose dark:prose-invert text-sm text-muted-foreground">
+          <span className="prose dark:prose-invert text-sm md:text-base text-muted-foreground">
             {description}
           </span>
         )}

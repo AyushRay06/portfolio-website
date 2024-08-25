@@ -23,7 +23,7 @@ export default function page() {
     <div className="min-h-screen mx-4 ">
       <div>
         <div className="w-screen">
-          <div className="flex fixed  inset-x-0 left-4 top-20">
+          <div className="flex fixed z-[50]  inset-x-0 left-8 top-20">
             <ModeToggle />
           </div>
           <div className="mt-10 ">
@@ -43,7 +43,7 @@ export default function page() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Check out my latest work
                   </h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed">
                     I&apos;ve worked on a variety of projects, from simple
                     websites to complex web applications. Here are a few of my
                     favorites.
@@ -52,7 +52,7 @@ export default function page() {
               </div>
             </BlurFade>
             <div className=" max-w-5xl mx-auto">
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mx-8">
+              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mx-8">
                 {DATA.projects.map((project, id) => (
                   <BlurFade key={project.title}>
                     <ProjectCard
@@ -80,15 +80,13 @@ export default function page() {
                     Experience
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    I like building things
+                    My Work Experience
                   </h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    During my time in university, I attended{" "}
-                    {DATA.hackathons.length}+ hackathons. People from around the
-                    country would come together and build incredible things in
-                    2-3 days. It was eye-opening to see the endless
-                    possibilities brought to life by a group of motivated and
-                    passionate individuals.
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed">
+                    Since discovering programming, I've focused on solving
+                    problems through software. I've contributed to open-source,
+                    gained internship experience, led a coding club, mentored
+                    communities, and given talks on tech tools.
                   </p>
                 </div>
               </div>

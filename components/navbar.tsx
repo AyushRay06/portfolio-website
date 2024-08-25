@@ -67,18 +67,11 @@ export function FloatingDockDemo() {
       ),
       href: "https://ayush06.hashnode.dev/",
     },
-    {
-      title: "Google DSC",
-      icon: (
-        <IconBrandGoogle className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
   ]
   return (
-    <div className="flex fixed  inset-x-0 max-w-2xl mx-auto z-50  items-center justify-center h-[8rem] pb-2 w-full">
+    <div className="flex fixed  inset-x-0 max-w-2xl mx-auto z-50  items-center justify-end h-[4rem] pb-2 w-full">
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        mobileClassName="translate-y-[50%]" // only for demo, remove for production
         items={links}
       />
     </div>
