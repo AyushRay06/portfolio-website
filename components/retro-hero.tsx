@@ -41,7 +41,7 @@ export function RetroGridDemo() {
         <Markdown className="prose  text-pretty font-sans text-sm md:text-lg  py-5 px-5 md:px-16  dark:prose-invert">
           A passionate software developer with a deep love for coding and
           exploring new technologies. My curiosity drives me to understand how
-          things work at their core. I've had the privilege of leading
+          things work at their core. I &apos;ve had the privilege of leading
           communities as a Google Developer Student Club Lead. My journey
           includes contributing to open source and gaining valuable experience
           through internships. I’m always eager to learn, build, and innovate.
