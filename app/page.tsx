@@ -23,10 +23,7 @@ export default function page() {
     <div className="min-h-screen mx-4 ">
       <div>
         <div className="w-screen">
-          <div className="flex fixed z-[50]  inset-x-0 left-8 top-20">
-            <ModeToggle />
-          </div>
-          <div className="mt-10 ">
+          <div className="sm:mt-4 md:mt-16 ">
             <FloatingDockDemo />
           </div>
           <div className=" pt-32 mb-10 mx-8">

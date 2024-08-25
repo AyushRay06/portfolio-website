@@ -82,6 +82,7 @@ export function FloatingDockDemo() {
         mobileClassName="translate-y-[50%]" // only for demo, remove for production
         items={links}
       />
+      <ModeToggle />
     </div>
   )
 }
