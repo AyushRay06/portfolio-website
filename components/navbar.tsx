@@ -6,6 +6,7 @@ import {
   IconBrandGoogle,
   IconBrandInstagram,
   IconBrandLinkedin,
+  IconBrandSpotify,
   IconBrandX,
   IconHome,
   IconPaperclip,
@@ -66,6 +67,13 @@ export function FloatingDockDemo() {
         <IconWriting className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://ayush06.hashnode.dev/",
+    },
+    {
+      title: "Music",
+      icon: (
+        <IconBrandSpotify className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3Vbkk0",
     },
   ]
   return (
