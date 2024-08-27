@@ -47,7 +47,7 @@ export const DATA = {
     },
     {
       title: "Real-Time White Board",
-      href: "https://magicui.design",
+      href: "https://github.com/AyushRay06/real-time-white-board",
       dates: "August 2023 - Ongoing",
       active: true,
       description:
