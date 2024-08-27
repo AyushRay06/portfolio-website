@@ -73,7 +73,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandSpotify className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3Vbkk0",
+      href: "https://open.spotify.com/artist/6LEG9Ld1aLImEFEVHdWNSB",
     },
   ]
   return (
