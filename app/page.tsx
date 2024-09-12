@@ -82,7 +82,7 @@ export default function page() {
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed">
                     Since discovering programming, I &apos; ve focused on
                     solving problems through software. I &apos; ve contributed
-                    to open-source, gained internship experience, led a coding
+                    to open-source, gained internship experience, and led a coding
                     club, mentored communities, and given talks on tech tools.
                   </p>
                 </div>
