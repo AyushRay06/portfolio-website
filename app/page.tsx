@@ -83,7 +83,7 @@ export default function page() {
                     Since discovering programming, I &apos; ve focused on
                     solving problems through software. I &apos; ve contributed
                     to open-source, gained internship experience, and led a coding
-                    club, mentored communities, and given talks on tech tool.
+                    club, mentored communities, and given talks on tech tools.
                   </p>
                 </div>
               </div>
