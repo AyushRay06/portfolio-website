@@ -53,6 +53,7 @@ export const DATA = {
       description:
         "A real-time whiteboard application enabling teams to collaborate seamlessly on planning and organizing tasks. Integrated Liveblocks to facilitate instant updates and interactions, ensuring real-time collaboration. The platform allows multiple users to simultaneously create, edit, and manage content, making it ideal for brainstorming sessions, project management, and team coordination.",
       technologies: [
+        "React",
         "Next.js",
         "Typescript",
         "Convex",
@@ -63,19 +64,19 @@ export const DATA = {
         "Liveblocks",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://magicui.design",
-        //   icon: <Globe />,
-        // },
+        {
+          type: "Website",
+          href: "https://real-time-white-board-6sy4.vercel.app/",
+          icon: <Globe />,
+        },
         {
           type: "Source",
           href: "https://github.com/AyushRay06/real-time-white-board",
           icon: <Github />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/white-board.png",
+      //video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
       title: "Portfolio",
@@ -90,6 +91,7 @@ export const DATA = {
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
+        "Raect",
       ],
       links: [
         {
@@ -210,6 +212,7 @@ export const DATA = {
         "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     },
   ],
+
   education: [
     {
       school: "Dibrugarh University Institute of Engineering and Technology",
