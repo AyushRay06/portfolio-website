@@ -73,8 +73,9 @@ export default function page() {
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed">
                     Since discovering programming, I &apos; ve focused on
                     solving problems through software. I &apos; ve contributed
-                    to open-source, gained internship experience, and led a coding
-                    club, mentored communities, and given talks on tech tools.
+                    to open-source, gained internship experience, and led a
+                    coding club, mentored communities, and given talks on tech
+                    tools.
                   </p>
                 </div>
               </div>
@@ -104,16 +105,16 @@ export default function page() {
               <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                    Experience
+                    Some more Experience
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    My Work Experience
+                    Tech Events & Community Impact
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed">
-                    Since discovering programming, I &apos; ve focused on
-                    solving problems through software. I &apos; ve contributed
-                    to open-source, gained internship experience, led a coding
-                    club, mentored communities, and given talks on tech tools.
+                    Organizing hackathons, delivering technical talks, and
+                    leading workshops to inspire and empower the tech community
+                    while contributing through volunteer work and collaborative
+                    initiatives.
                   </p>
                 </div>
               </div>
