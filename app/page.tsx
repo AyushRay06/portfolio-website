@@ -1,22 +1,13 @@
-import { VortexDemoSecond } from "@/components/Flow"
-import { HeroScrollDemo } from "@/components/HeroScrollDemo"
-
-import { WavyBackgroundDemo } from "@/components/hero"
 import { FloatingDockDemo } from "@/components/navbar"
 import { ProjectCard } from "@/components/project-card"
-import { Skills } from "@/components/skills"
-import { Skillzz } from "@/components/skillzz"
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip"
 import React from "react"
 import BlurFade from "@/components/magicui/blur-fade"
-import BlurFadeText from "@/components/magicui/blur-fade-text"
 import { DATA } from "@/data/resume"
 import { Footer } from "@/components/footer"
-import { BlurInDemo } from "@/components/blur-in-text"
 import { ExperienceCard } from "@/components/hackathon-card"
 import { ResumeCard } from "@/components/resume-card"
 import { RetroGridDemo } from "@/components/retro-hero"
-import { ModeToggle } from "@/components/theme-toogle"
+import { WorkTimeline } from "@/components/freelance-vol"
 
 export default function page() {
   return (
@@ -68,7 +59,7 @@ export default function page() {
               </div>
             </div>
           </div>
-
+          {/* work experient descriptin */}
           <div className="space-y-12 max-w-6xl mx-auto ml-50 py-12">
             <BlurFade>
               <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
@@ -88,6 +79,7 @@ export default function page() {
                 </div>
               </div>
             </BlurFade>
+            {/* work experience data */}
             <BlurFade>
               <ul className="mb-4 ml-12 mx-8 divide-y divide-dashed border-l">
                 {DATA.hackathons.map((project, id) => (
@@ -105,6 +97,33 @@ export default function page() {
               </ul>
             </BlurFade>
           </div>
+          {/* work2 */}
+          <div className="space-y-0 max-w-6xl mx-auto ml-50 pt-20">
+            {/* Talks voluntree, freelace work descriprion */}
+            <BlurFade>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center mx-8">
+                <div className="space-y-2">
+                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                    Experience
+                  </div>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                    My Work Experience
+                  </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed">
+                    Since discovering programming, I &apos; ve focused on
+                    solving problems through software. I &apos; ve contributed
+                    to open-source, gained internship experience, led a coding
+                    club, mentored communities, and given talks on tech tools.
+                  </p>
+                </div>
+              </div>
+            </BlurFade>
+            {/* data Talks voluntree, freelace work descriprion */}
+            <BlurFade>
+              <WorkTimeline />
+            </BlurFade>
+          </div>
+          {/* <SkillSection /> */}
           <section id="education">
             <div className=" max-w-6xl mx-auto  ">
               <div className="flex flex-col gap-y-10 min-h-0 mx-8">
