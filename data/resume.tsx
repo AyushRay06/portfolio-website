@@ -245,6 +245,25 @@ export const DATA = {
     //   links: [],
     // },
     {
+      title: "Metapoise",
+      dates: "September 15-September 20, 2024",
+      role: "Frotend Developer | Freelance work",
+      description: `I developed a responsive website for Metapoise, showcasing the fest’s mission, vision, events, and registration features. It provides a seamless user experience with modern design and smooth performance across devices.Key Technologies: Next.js, Tailwind CSS, TypeScript, React, Shadcn, Framer Motion.`,
+      image: "/metapoise.jpeg",
+      links: [
+        {
+          title: "Metapoise",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://meta-poise.vercel.app/",
+        },
+        {
+          title: "Source-code",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://github.com/AyushRay06/MetaPoise",
+        },
+      ],
+    },
+    {
       title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
       dates: "June 19-July 20, 2024",
       role: "Research Intern",
