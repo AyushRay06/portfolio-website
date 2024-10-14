@@ -29,7 +29,7 @@ export default function page() {
                     My Projects
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    Check out my latest work
+                    Check out my Projects
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed">
                     I&apos;ve worked on a variety of projects, from simple
