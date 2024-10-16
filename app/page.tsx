@@ -8,6 +8,8 @@ import { ExperienceCard } from "@/components/hackathon-card"
 import { ResumeCard } from "@/components/resume-card"
 import { RetroGridDemo } from "@/components/retro-hero"
 import { WorkTimeline } from "@/components/freelance-vol"
+import { Skills } from "@/components/skills01"
+import { LogoTicker } from "@/components/xFlowSkills"
 
 export default function page() {
   return (
@@ -19,6 +21,14 @@ export default function page() {
           </div>
           <div className=" pt-32 mb-10 mx-8">
             <RetroGridDemo />
+          </div>
+          <div className="my-20">
+            <LogoTicker />
+            <LogoTicker />
+
+            <LogoTicker />
+
+            <LogoTicker />
           </div>
 
           <div className="space-y-12 w-full py-12 max-w-6xl mx-auto">

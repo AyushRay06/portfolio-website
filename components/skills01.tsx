@@ -29,7 +29,7 @@ import js from "@/public/javascript.svg"
 
 export function Skills() {
   return (
-    <section className="w-full py-12 md:py-24 dark">
+    <section className="w-full py-12 md:py-24 ">
       <div className="container grid max-w-3xl items-start gap-4 px-4 md:px-6 lg:gap-8 xl:max-w-5xl">
         <div className="space-y-2 text-center pb-20">
           <p className="text-7xl  font-extrabold tracking-tighter sm:text-4xl ">
@@ -95,7 +95,7 @@ export function Skills() {
               <h3 className="font-semibold">Java</h3>
             </div>
           </div>
-          <div className="flex items-start space-x-4">
+          {/* <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img
                 alt="Backend"
@@ -112,7 +112,7 @@ export function Skills() {
             <div className="space-y-1.5">
               <h3 className="font-semibold">Python</h3>
             </div>
-          </div>
+          </div> */}
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden">
               <img

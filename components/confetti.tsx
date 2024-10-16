@@ -1,7 +1,6 @@
 import confetti from "canvas-confetti"
 
 import { Button } from "@/components/ui/button"
-import { Ghost } from "lucide-react"
 
 export function ConfettiFireworks() {
   const handleClick = () => {

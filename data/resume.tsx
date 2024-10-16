@@ -109,9 +109,9 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "#",
-      dates: "April 2023 - March 2024",
+      title: "Start-Up Landing Page",
+      href: "https://ai-startup-cyan.vercel.app/",
+      dates: "october 7 - October 11 2024",
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
