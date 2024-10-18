@@ -9,7 +9,7 @@ import { ResumeCard } from "@/components/resume-card"
 import { RetroGridDemo } from "@/components/retro-hero"
 import { WorkTimeline } from "@/components/freelance-vol"
 import { Skills } from "@/components/skills01"
-import { LogoTicker } from "@/components/xFlowSkills"
+import { FrontEndTools, BackEndTools } from "@/components/xFlowSkills"
 
 export default function page() {
   return (
@@ -22,14 +22,25 @@ export default function page() {
           <div className=" pt-32 mb-10 mx-8">
             <RetroGridDemo />
           </div>
-          <div className="my-20">
-            <LogoTicker />
-            <LogoTicker />
+          <BlurFade>
+            <div className="text-center my-40">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                My Skills
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                These are my skills
+              </h2>
+              <p className="text-muted-foreground md:text-xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+                culpa
+              </p>
+            </div>
 
-            <LogoTicker />
-
-            <LogoTicker />
-          </div>
+            <div className="my-20">
+              <FrontEndTools />
+              <BackEndTools />
+            </div>
+          </BlurFade>
 
           <div className="space-y-12 w-full py-12 max-w-6xl mx-auto">
             <BlurFade>
