@@ -1,6 +1,5 @@
 "use client"
 
-import acmeLogo from "@/assets/logo-acme.png"
 // import apexLogo from "@/assets/logo-apex.png"
 // import echoLogo from "@/assets/logo-echo.png"
 // import pulseLogo from "@/assets/logo-pulse.png"
@@ -9,7 +8,7 @@ import acmeLogo from "@/assets/logo-acme.png"
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { FrontendSkill } from "./frontend"
+import { BackendSkill, FrontendSkill } from "./frontend"
 
 export const FrontEndTools = () => {
   const logos = [
@@ -26,12 +25,36 @@ export const FrontEndTools = () => {
       src: "/tailwind.jpeg",
     },
     {
+      name: "Framer-Motion",
+      src: "/fm.png",
+    },
+    {
       name: "React",
       src: "/react.svg",
     },
     { name: "Next.js", src: "/nextjs.webp" },
-    //framer motion to be added
-    //also if possibe components library
+    {
+      name: "Javascript",
+      src: "/javascript.svg",
+    },
+    {
+      name: "Typescript",
+      src: "/typescript.svg",
+    },
+    {
+      name: "Tailwind",
+      src: "/tailwind.jpeg",
+    },
+    {
+      name: "Framer-Motion",
+      src: "/fm.png",
+    },
+    {
+      name: "React",
+      src: "/react.svg",
+    },
+    { name: "Next.js", src: "/nextjs.webp" },
+    //Elements twice to loop smothly[repatetype]
   ]
 
   return (
@@ -49,9 +72,10 @@ export const FrontEndTools = () => {
               initial={{ translateX: "-50%" }}
               animate={{ translateX: "0" }}
               transition={{
-                duration: 10,
+                duration: 7,
                 repeat: Infinity,
-                ease: "easeOut",
+                ease: "linear",
+                repeatType: "loop",
               }}
               className="flex flex-none gap-4 pr-4 -translate-x-1/2"
             >
@@ -94,7 +118,7 @@ export const BackEndTools = () => {
     <section className="py-2 md:py-6 max-w-6xl mx-auto ">
       <div className="container md:border border-black/10 dark:border-white/10 rounded-2xl md:shadow-lg md:dark:shadow-[#0f0f2a]">
         <div className="md:hidden text-center">
-          <FrontendSkill />
+          <BackendSkill />
         </div>
         <div className="flex items-center gap-8">
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
@@ -102,7 +126,7 @@ export const BackEndTools = () => {
               initial={{ translateX: "-50%" }}
               animate={{ translateX: "0" }}
               transition={{
-                duration: 10,
+                duration: 5,
                 repeat: Infinity,
                 ease: "linear",
                 repeatType: "loop",
@@ -127,7 +151,7 @@ export const BackEndTools = () => {
             </motion.div>
           </div>
           <div className="hidden md:block md:flex-none text-end">
-            <FrontendSkill />
+            <BackendSkill />
           </div>
         </div>
       </div>

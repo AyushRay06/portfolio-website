@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function OrbitingCirclesDemo() {
   return (
-    <div className="relative flex h-[400px] w-[400px] flex-col items-center justify-center overflow-hidden rounded-lg  bg-background shadow-xl dark:shadow-[#0f0f2a] border border-white/10">
+    <div className="relative flex h-[400px] w-[400px] flex-col items-center justify-center overflow-hidden rounded-xl  bg-background shadow-xl dark:shadow-[#0f0f2a] border border-white/10">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-black ">
         DevOps
       </span>

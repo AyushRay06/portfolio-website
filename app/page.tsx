@@ -8,10 +8,10 @@ import { ExperienceCard } from "@/components/hackathon-card"
 import { ResumeCard } from "@/components/resume-card"
 import { RetroGridDemo } from "@/components/retro-hero"
 import { WorkTimeline } from "@/components/freelance-vol"
-import { Skills } from "@/components/skills01"
 import { FrontEndTools, BackEndTools } from "@/components/xFlowSkills"
 import { OrbitingCirclesDemo } from "@/components/devops"
 import { AnimatedListDemo } from "@/components/basicTools"
+import { SkillsDescCard } from "@/components/skillsDesc"
 
 export default function page() {
   return (
@@ -42,9 +42,12 @@ export default function page() {
               <FrontEndTools />
               <BackEndTools />
             </div>
-            <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto justify-between ">
+            <div className="flex flex-col md:flex-row gap-x-2 gap-y-10  max-w-6xl mx-auto justify-center px-6">
               <div>
                 <OrbitingCirclesDemo />
+              </div>
+              <div>
+                <SkillsDescCard />
               </div>
               <div>
                 <AnimatedListDemo />

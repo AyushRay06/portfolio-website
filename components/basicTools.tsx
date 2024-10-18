@@ -49,7 +49,7 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
   return (
     <figure
       className={cn(
-        "relative mx-auto min-h-fit w-full max-w-[400px] cursor-pointer overflow-hidden rounded-2xl p-4",
+        "relative mx-auto min-h-fit w-full max-w-[400px]  cursor-pointer overflow-hidden rounded-2xl p-4",
         // animation styles
         "transition-all duration-200 ease-in-out hover:scale-[103%]",
         // light styles
@@ -86,7 +86,7 @@ export function AnimatedListDemo({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "relative flex  h-[500px] w-full flex-col p-2 overflow-hidden rounded-lg border bg-background md:shadow-xl",
+        "relative flex  h-[400px] w-full flex-col p-2 overflow-hidden rounded-lg border bg-background shadow-xl dark:shadow-[#0f0f2a]",
         className
       )}
     >
