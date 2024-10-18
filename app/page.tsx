@@ -10,6 +10,8 @@ import { RetroGridDemo } from "@/components/retro-hero"
 import { WorkTimeline } from "@/components/freelance-vol"
 import { Skills } from "@/components/skills01"
 import { FrontEndTools, BackEndTools } from "@/components/xFlowSkills"
+import { OrbitingCirclesDemo } from "@/components/devops"
+import { AnimatedListDemo } from "@/components/basicTools"
 
 export default function page() {
   return (
@@ -23,7 +25,7 @@ export default function page() {
             <RetroGridDemo />
           </div>
           <BlurFade>
-            <div className="text-center my-40">
+            <div className="text-center mt-40">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 My Skills
               </div>
@@ -36,9 +38,17 @@ export default function page() {
               </p>
             </div>
 
-            <div className="my-20">
+            <div className="mt-20">
               <FrontEndTools />
               <BackEndTools />
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto justify-between ">
+              <div>
+                <OrbitingCirclesDemo />
+              </div>
+              <div>
+                <AnimatedListDemo />
+              </div>
             </div>
           </BlurFade>
 

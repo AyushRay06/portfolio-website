@@ -9,7 +9,6 @@ import acmeLogo from "@/assets/logo-acme.png"
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { TextRevealCardPreview } from "./backendCard"
 import { FrontendSkill } from "./frontend"
 
 export const FrontEndTools = () => {
@@ -31,15 +30,14 @@ export const FrontEndTools = () => {
       src: "/react.svg",
     },
     { name: "Next.js", src: "/nextjs.webp" },
-    // { name: "Node-js", src: "/node-js.svg" },
-    // { name: "Express-js", src: "/express-js.png" },
-    // { name: "Prisma", src: "/prisma.avif" },
+    //framer motion to be added
+    //also if possibe components library
   ]
 
   return (
-    <section className="py-2 md:py-6 max-w-7xl mx-auto">
-      <div className="container">
-        <div className="md:hidden">
+    <section className="py-2 md:py-6 max-w-6xl mx-auto ">
+      <div className="container md:border border-black/10 dark:border-white/10 rounded-2xl md:shadow-lg md:dark:shadow-[#0f0f2a]">
+        <div className="md:hidden text-center">
           <FrontendSkill />
         </div>
         <div className="flex items-center gap-8">
@@ -55,7 +53,7 @@ export const FrontEndTools = () => {
                 repeat: Infinity,
                 ease: "easeOut",
               }}
-              className="flex flex-none gap-4 pr-14 -translate-x-1/2"
+              className="flex flex-none gap-4 pr-4 -translate-x-1/2"
             >
               {logos.map((logo, index) => (
                 <>
@@ -86,12 +84,18 @@ export const BackEndTools = () => {
     { name: "Node-js", src: "/node-js.svg" },
     { name: "Express-js", src: "/express-js.png" },
     { name: "Prisma", src: "/prisma.avif" },
+    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "Node-js", src: "/node-js.svg" },
+    { name: "Express-js", src: "/express-js.png" },
+    { name: "Prisma", src: "/prisma.avif" },
   ]
 
   return (
-    <section className="py-2 md:py-6 max-w-5xl mx-auto">
-      <div className="container">
-        <TextRevealCardPreview />
+    <section className="py-2 md:py-6 max-w-6xl mx-auto ">
+      <div className="container md:border border-black/10 dark:border-white/10 rounded-2xl md:shadow-lg md:dark:shadow-[#0f0f2a]">
+        <div className="md:hidden text-center">
+          <FrontendSkill />
+        </div>
         <div className="flex items-center gap-8">
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <motion.div
@@ -100,9 +104,10 @@ export const BackEndTools = () => {
               transition={{
                 duration: 10,
                 repeat: Infinity,
-                ease: "easeOut",
+                ease: "linear",
+                repeatType: "loop",
               }}
-              className="flex flex-none gap-14 pr-14 -translate-x-1/2"
+              className="flex flex-none gap-4 pr-4 -translate-x-1/2"
             >
               {logos.map((logo, index) => (
                 <>
@@ -110,7 +115,7 @@ export const BackEndTools = () => {
                     key={index} // Add key prop here
                     src={logo.src}
                     alt={`Logo ${index + 1}`}
-                    className="h-16 w-auto px-0 md:px-6 lg:px-8 rounded-full"
+                    className="h-10 w-auto px-0 lg:px-4"
                     height={100}
                     width={100}
                   />
@@ -120,6 +125,9 @@ export const BackEndTools = () => {
                 </>
               ))}
             </motion.div>
+          </div>
+          <div className="hidden md:block md:flex-none text-end">
+            <FrontendSkill />
           </div>
         </div>
       </div>
