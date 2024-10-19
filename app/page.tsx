@@ -25,7 +25,7 @@ export default function page() {
             <RetroGridDemo />
           </div>
           <BlurFade>
-            <div className="text-center mt-40">
+            <div className="text-center mt-40 px-8">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 My Skills
               </div>
@@ -33,20 +33,19 @@ export default function page() {
                 These are my skills
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
-                culpa
+                I have experience in Full-Stack Development and some DevOps.
               </p>
             </div>
 
-            <div className="mt-20">
+            <div className="mt-20 px-4">
               <FrontEndTools />
               <BackEndTools />
             </div>
-            <div className="flex flex-col md:flex-row gap-x-2 gap-y-10  max-w-6xl mx-auto justify-center px-6">
+            <div className="flex flex-col md:flex-row gap-x-2 gap-y-10 mb-40 mt-32 md:mt-0  max-w-6xl mx-auto justify-center items-center px-6">
               <div>
                 <OrbitingCirclesDemo />
               </div>
-              <div>
+              <div className="block md:hidden lg:block">
                 <SkillsDescCard />
               </div>
               <div>

@@ -1,5 +1,7 @@
 //import { CardSpotlight } from "@/components/ui/card-spotlight"
 
+import { MoveRight } from "lucide-react"
+
 export function SkillsDescCard() {
   return (
     <div className="h-[400px] w-[400px] bg-white dark:bg-transparent shadow-xl dark:shadow-[#0f0f2a] border rounded-xl border-black/10 dark:border-white/10 p-6">
@@ -16,6 +18,13 @@ export function SkillsDescCard() {
           <Step title="Good communication skills, conveying technical concepts clearly" />
         </ul>
       </div>
+      <p className="text-black/50 dark:text-white/50 mt-2 relative z-20 text-sm">
+        Ensuring your account is properly secured helps
+      </p>
+      <p className="text-black/50 dark:text-white/50 mt-2 text-sm">
+        Other Important Language and Tools I know.
+        <MoveRight className="font-bold text-black dark:text-white text-right" />
+      </p>
     </div>
   )
 }

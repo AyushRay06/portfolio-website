@@ -2,50 +2,50 @@
 
 import { cn } from "@/lib/utils"
 import { AnimatedList } from "@/components/ui/animated-list"
+import Image from "next/image"
 
 interface Item {
   name: string
   description: string
-  icon: string
-  color: string
-  time: string
+  src: string
 }
 
 let notifications = [
   {
-    name: "Payment received",
-    description: "Magic UI",
-    time: "15m ago",
-
-    icon: "💸",
-    color: "#00C9A7",
+    name: "Git",
+    description: "Expert in git, everyday job.",
+    src: "/git.svg",
   },
   {
-    name: "User signed up",
-    description: "Magic UI",
-    time: "10m ago",
-    icon: "👤",
-    color: "#FFB800",
+    name: "Git-Hub",
+    description: "Expert in git too, everyday job too.",
+    src: "/github.png",
   },
   {
-    name: "New message",
-    description: "Magic UI",
-    time: "5m ago",
-    icon: "💬",
-    color: "#FF3D71",
+    name: "Linux",
+    description: "My best friend, terminal, bash, shell.",
+    src: "/linux.svg",
   },
   {
-    name: "New event",
-    description: "Magic UI",
-    time: "2m ago",
-    icon: "🗞️",
-    color: "#1E86FF",
+    name: "Python",
+    description: "Have used in AIML project and writting automation.",
+    src: "/python.svg",
+  },
+  {
+    name: "TurboRepo",
+    description: "Have used in some projects to manage big codebases",
+    src: "/turbo-logo.png",
+  },
+  {
+    name: "Java",
+    description: "Have done programmig in Java.",
+    src: "/java.svg",
   },
 ]
 
 notifications = Array.from({ length: 10 }, () => notifications).flat()
 
-const Notification = ({ name, description, icon, color, time }: Item) => {
+const Notification = ({ name, description, src }: Item) => {
   return (
     <figure
       className={cn(
@@ -59,19 +59,12 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
       )}
     >
       <div className="flex flex-row items-center gap-3">
-        <div
-          className="flex size-10 items-center justify-center rounded-2xl"
-          style={{
-            backgroundColor: color,
-          }}
-        >
-          <span className="text-lg">{icon}</span>
+        <div className="flex size-10 items-center justify-center rounded-2xl">
+          <Image src={src} alt="logo" width={40} height={40} />
         </div>
         <div className="flex flex-col overflow-hidden">
           <figcaption className="flex flex-row items-center whitespace-pre text-lg font-medium dark:text-white ">
             <span className="text-sm sm:text-lg">{name}</span>
-            <span className="mx-1">·</span>
-            <span className="text-xs text-gray-500">{time}</span>
           </figcaption>
           <p className="text-sm font-normal dark:text-white/60">
             {description}
@@ -86,7 +79,7 @@ export function AnimatedListDemo({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "relative flex  h-[400px] w-full flex-col p-2 overflow-hidden rounded-lg border bg-background shadow-xl dark:shadow-[#0f0f2a]",
+        "relative flex w-[400px] md:w-full lg:w-[330px] h-[400px]  flex-col p-2 overflow-hidden rounded-lg border bg-background shadow-xl dark:shadow-[#0f0f2a]",
         className
       )}
     >
