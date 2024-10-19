@@ -104,14 +104,35 @@ export const FrontEndTools = () => {
 
 export const BackEndTools = () => {
   const logos = [
-    { name: "Next.js", src: "/nextjs.webp" },
     { name: "Node-js", src: "/node-js.svg" },
     { name: "Express-js", src: "/express-js.png" },
-    { name: "Prisma", src: "/prisma.avif" },
     { name: "Next.js", src: "/nextjs.webp" },
+    { name: "JWT", src: "/jwt.png" },
+    { name: "Clerk", src: "/clerk.png" },
+    { name: "Postman", src: "/postman.svg" },
+    { name: "Prisma", src: "/prisma.avif" },
+    { name: "PostgreSQL", src: "/postgresql.svg" },
+    { name: "MongoDB", src: "/mongodb.svg" },
+    { name: "MySQL", src: "/mysql.png" },
+    { name: "CloudFlare", src: "/cloudflare.svg" },
+    { name: "Convex", src: "/convex.png" },
+    { name: "Socket.io", src: "/soket.png" },
+    { name: "Liveblocks", src: "/liveblocks.png" },
+
     { name: "Node-js", src: "/node-js.svg" },
     { name: "Express-js", src: "/express-js.png" },
+    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "JWT", src: "/jwt.png" },
+    { name: "Clerk", src: "/clerk.png" },
+    { name: "Postman", src: "/postman.svg" },
     { name: "Prisma", src: "/prisma.avif" },
+    { name: "PostgreSQL", src: "/postgresql.svg" },
+    { name: "MongoDB", src: "/mongodb.svg" },
+    { name: "MySQL", src: "/mysql.png" },
+    { name: "CloudFlare", src: "/cloudflare.svg" },
+    { name: "Convex", src: "/convex.png" },
+    { name: "Socket.io", src: "/soket.png" },
+    { name: "Liveblocks", src: "/liveblocks.png" },
   ]
 
   return (
@@ -126,7 +147,7 @@ export const BackEndTools = () => {
               initial={{ translateX: "-50%" }}
               animate={{ translateX: "0" }}
               transition={{
-                duration: 5,
+                duration: 15,
                 repeat: Infinity,
                 ease: "linear",
                 repeatType: "loop",

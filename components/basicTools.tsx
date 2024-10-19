@@ -41,6 +41,13 @@ let notifications = [
     description: "Have done programmig in Java.",
     src: "/java.svg",
   },
+
+  {
+    name: "Stripe",
+    description:
+      "Used stripe for payment integrations in my SAAS projects.",
+    src: "/stripe.png",
+  },
 ]
 
 notifications = Array.from({ length: 10 }, () => notifications).flat()
