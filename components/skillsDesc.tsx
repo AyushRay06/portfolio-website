@@ -1,10 +1,14 @@
 //import { CardSpotlight } from "@/components/ui/card-spotlight"
 
-import { MoveLeft, MoveRight } from "lucide-react"
+import { MoveDown, MoveLeft, MoveRight, MoveUp } from "lucide-react"
 
 export function SkillsDescCard() {
   return (
     <div className="h-[400px] w-[400px] bg-white dark:bg-transparent shadow-xl dark:shadow-[#0f0f2a] border rounded-xl border-black/10 dark:border-white/10 p-6">
+      <p className=" md:hidden bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md flex p-1 font-semibold text-black/80 dark:text-white  mt-2 text-sm">
+        <MoveUp className=" font-bold text-black dark:text-white text-right mr-2" />
+        Tools I have experience with in DevOps.
+      </p>
       <p className="text-xl font-bold relative z-20 mt-2 dark:text-white">
         Skills Overview
       </p>
@@ -18,13 +22,16 @@ export function SkillsDescCard() {
           <Step title="Good communication skills, conveying technical concepts clearly" />
         </ul>
       </div>
-      <p className="bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md flex p-1 font-semibold text-black/80 dark:text-white  mt-2 text-sm">
-        <MoveLeft className="font-bold text-black dark:text-white text-right mr-2" />
-        Tools I have experience with in DevOps.
-      </p>
+      <div className="hidden lg:block">
+        <p className=" bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md flex p-1 font-semibold text-black/80 dark:text-white  mt-2 text-sm">
+          <MoveLeft className=" font-bold text-black dark:text-white text-right mr-2" />
+          Tools I have experience with in DevOps.
+        </p>
+      </div>
       <p className=" bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md  p-1 flex font-semibold text-black/80 dark:text-white mt-2 text-sm">
         Other Important Language and Tools I know.
-        <MoveRight className="font-bold text-black dark:text-white text-right ml-2" />
+        <MoveRight className="hidden md:block font-bold text-black dark:text-white text-right ml-2" />
+        <MoveDown className="block md:hidden font-bold text-black dark:text-white text-right ml-2" />
       </p>
     </div>
   )
