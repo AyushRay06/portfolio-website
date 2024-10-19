@@ -1,6 +1,6 @@
 //import { CardSpotlight } from "@/components/ui/card-spotlight"
 
-import { MoveRight } from "lucide-react"
+import { MoveLeft, MoveRight } from "lucide-react"
 
 export function SkillsDescCard() {
   return (
@@ -18,12 +18,13 @@ export function SkillsDescCard() {
           <Step title="Good communication skills, conveying technical concepts clearly" />
         </ul>
       </div>
-      <p className="text-black/50 dark:text-white/50 mt-2 relative z-20 text-sm">
-        Ensuring your account is properly secured helps
+      <p className="bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md flex p-1 font-semibold text-black/80 dark:text-white  mt-2 text-sm">
+        <MoveLeft className="font-bold text-black dark:text-white text-right mr-2" />
+        Tools I have experience with in DevOps.
       </p>
-      <p className="text-black/50 dark:text-white/50 mt-2 text-sm">
+      <p className=" bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md  p-1 flex font-semibold text-black/80 dark:text-white mt-2 text-sm">
         Other Important Language and Tools I know.
-        <MoveRight className="font-bold text-black dark:text-white text-right" />
+        <MoveRight className="font-bold text-black dark:text-white text-right ml-2" />
       </p>
     </div>
   )
