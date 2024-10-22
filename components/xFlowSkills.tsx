@@ -22,7 +22,7 @@ export const FrontEndTools = () => {
     },
     {
       name: "Tailwind",
-      src: "/tailwind.jpeg",
+      src: "/tailwind.png",
     },
     {
       name: "Framer-Motion",
@@ -30,9 +30,10 @@ export const FrontEndTools = () => {
     },
     {
       name: "React",
-      src: "/react.svg",
+      src: "/react.png",
     },
-    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "Next.js", src: "/nextjs.png" },
+    //
     {
       name: "Javascript",
       src: "/javascript.svg",
@@ -43,7 +44,7 @@ export const FrontEndTools = () => {
     },
     {
       name: "Tailwind",
-      src: "/tailwind.jpeg",
+      src: "/tailwind.png",
     },
     {
       name: "Framer-Motion",
@@ -51,9 +52,10 @@ export const FrontEndTools = () => {
     },
     {
       name: "React",
-      src: "/react.svg",
+      src: "/react.png",
     },
-    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "Next.js", src: "/nextjs.png" },
+
     //Elements twice to loop smothly[repatetype]
   ]
 
@@ -85,7 +87,11 @@ export const FrontEndTools = () => {
                     key={index} // Add key prop here
                     src={logo.src}
                     alt={`Logo ${index + 1}`}
-                    className="h-10 w-auto px-0 lg:px-4"
+                    className={`h-10 w-auto px-0 lg:px-4 ${
+                      logo.src == "/nextjs.png" ? "dark:invert" : ""
+                    }${
+                      logo.src == "/tailwind.png" ? "invert dark:invert-0" : ""
+                    } `}
                     height={100}
                     width={100}
                   />
@@ -106,11 +112,11 @@ export const BackEndTools = () => {
   const logos = [
     { name: "Node-js", src: "/node-js.svg" },
     { name: "Express-js", src: "/express-js.png" },
-    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "Next.js", src: "/nextjs.png" },
     { name: "JWT", src: "/jwt.png" },
     { name: "Clerk", src: "/clerk.png" },
     { name: "Postman", src: "/postman.svg" },
-    { name: "Prisma", src: "/prisma.avif" },
+    { name: "Prisma", src: "/prisma.png" },
     { name: "PostgreSQL", src: "/postgresql.svg" },
     { name: "MongoDB", src: "/mongodb.svg" },
     { name: "MySQL", src: "/mysql.png" },
@@ -118,14 +124,14 @@ export const BackEndTools = () => {
     { name: "Convex", src: "/convex.png" },
     { name: "Socket.io", src: "/soket.png" },
     { name: "Liveblocks", src: "/liveblocks.png" },
-
+    //
     { name: "Node-js", src: "/node-js.svg" },
     { name: "Express-js", src: "/express-js.png" },
-    { name: "Next.js", src: "/nextjs.webp" },
+    { name: "Next.js", src: "/nextjs.png" },
     { name: "JWT", src: "/jwt.png" },
     { name: "Clerk", src: "/clerk.png" },
     { name: "Postman", src: "/postman.svg" },
-    { name: "Prisma", src: "/prisma.avif" },
+    { name: "Prisma", src: "/prisma.png" },
     { name: "PostgreSQL", src: "/postgresql.svg" },
     { name: "MongoDB", src: "/mongodb.svg" },
     { name: "MySQL", src: "/mysql.png" },
@@ -160,7 +166,18 @@ export const BackEndTools = () => {
                     key={index} // Add key prop here
                     src={logo.src}
                     alt={`Logo ${index + 1}`}
-                    className="h-10 w-auto px-0 lg:px-4"
+                    //to invert ie change the color opposite so that the logo donot caemoflzssa..
+                    className={`h-10 w-auto px-0 lg:px-4 ${
+                      logo.src == "/nextjs.png" ||
+                      logo.src == "/soket.png" ||
+                      logo.src == "/prisma.png"
+                        ? "dark:invert"
+                        : ""
+                    } ${
+                      logo.src == "/liveblocks.png"
+                        ? "invert dark:invert-0"
+                        : ""
+                    } `}
                     height={100}
                     width={100}
                   />
