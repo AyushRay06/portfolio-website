@@ -10,8 +10,8 @@ export function RetroGridDemo() {
       {/* <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
         Hi, I'm Ayush
       </span> */}
-      <div className="mx-auto w-full max-w-2xl space-y-8 p-4 ">
-        <div className="gap-2 flex justify-between max-w-[600px]">
+      <div className="mx-auto w-full max-w-3xl space-y-8 p-4 ">
+        <div className="gap-2 flex justify-between max-w-[700px]">
           <div className="flex-col flex flex-1 space-y-1.5 max-w-[500px]">
             <BlurFadeText
               //delay={BLUR_FADE_DELAY}
@@ -30,8 +30,8 @@ export function RetroGridDemo() {
               className=" rounded-full"
               src="/ayush.jpeg"
               alt="ayush"
-              width={150}
-              height={150}
+              width={250}
+              height={250}
             />
           </div>
         </div>
