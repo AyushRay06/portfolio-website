@@ -28,7 +28,7 @@ export function SkillsDescCard() {
           Tools I have experience with in DevOps.
         </p>
       </div>
-      <p className=" bg-gradient-to-r from-emerald-600 to-purple-500 rounded-md  p-1 flex font-semibold text-black/80 dark:text-white mt-2 text-sm">
+      <p className=" bg-gradient-to-r from-purple-600 to-emerald-500 rounded-md  p-1 flex font-semibold text-black/80 dark:text-white mt-2 text-sm">
         Other Important Language and Tools I know.
         <MoveRight className="hidden md:block font-bold text-black dark:text-white text-right ml-2" />
         <MoveDown className="block md:hidden font-bold text-black dark:text-white text-right ml-2" />

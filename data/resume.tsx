@@ -175,7 +175,7 @@ export const DATA = {
       dates: "September 15-September 20, 2024",
       role: "Frotend Developer | Freelance work",
       description: `I developed a responsive website for Metapoise, showcasing the fest’s mission, vision, events, and registration features. It provides a seamless user experience with modern design and smooth performance across devices.Key Technologies: Next.js, Tailwind CSS, TypeScript, React, Shadcn, Framer Motion.`,
-      image: "/metapoise.jpeg",
+      image: "/MetaPoise.webp",
       links: [
         {
           title: "Metapoise",
