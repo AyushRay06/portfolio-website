@@ -68,7 +68,7 @@ const Icons = {
   docker: () => <Image src="/docker.svg" alt="docker" width={50} height={50} />,
   kubernaties: () => (
     <Image
-      src="/kubernaties.png"
+      src="/Kubernetes.svg"
       alt="docker"
       width={40}
       height={40}
