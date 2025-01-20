@@ -46,6 +46,38 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Debug",
+      href: "https://socially-plum.vercel.app/",
+      dates: "January 2025 - August 2024",
+      active: true,
+      description:
+        "Built a social media platform for developers and tech enthusiasts to connect, share ideas, and interact. Developed with Next.js, React, TypeScript, and Tailwind CSS, and powered by Prisma and PostgreSQL for efficient data management and scalability.",
+      technologies: [
+        "Typescript",
+        "React",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://socially-plum.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AyushRay06/Socially",
+          icon: <IconBrandGithub className="size-3" />,
+        },
+      ],
+      image: "/debug.png",
+      video: "",
+    },
+    {
       title: "Real-Time White Board",
       href: "https://github.com/AyushRay06/real-time-white-board",
       dates: "August 2023 - Ongoing",
@@ -79,33 +111,37 @@ export const DATA = {
       //video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "Portfolio",
+      title: "Exclitest",
       href: "https://portfolio-website-nu-lyart.vercel.app/",
-      dates: " May 2023 - Keep Updting",
+      dates: "October 2023 - I Keep adding Features",
       active: true,
       description:
-        "Built a responsive portfolio using Next.js and TypeScript, with sleek animations from Framer Motion and dynamic UI components from Shadcn and Magic UI. Designed to showcase projects and skills with a modern, interactive interface.",
+        "The **Automated Test Creation System** converts Excel files into interactive MCQs with ease. Teachers can upload files to create timed, randomized tests, each with a unique code or QR for quick student access. The **Teacher Dashboard** allows editing and performance tracking, while the **Student Dashboard** provides instant feedback and test history, all within a user-friendly, real-time interface.",
       technologies: [
-        "Next.js",
+        "Javascript",
         "Typescript",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
         "Raect",
+        "Next.js",
+        "Express",
+        "MongoDB",
+        "Clerk",
+        "XLSX",
       ],
       links: [
         {
           type: "Website",
-          href: "https://portfolio-website-nu-lyart.vercel.app/",
+          href: "https://excelitest.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/AyushRay06/portfolio-website",
+          href: "https://github.com/AyushRay06/goc-hack-final",
           icon: <Github className="size-3" />,
         },
       ],
-      image: "/port.png",
+      image: "/excli.png",
       video: "",
     },
     {
@@ -135,6 +171,36 @@ export const DATA = {
         },
       ],
       image: "/aiseoP.png",
+      video: "",
+    },
+    {
+      title: "Portfolio",
+      href: "https://portfolio-website-nu-lyart.vercel.app/",
+      dates: " May 2023 - Keep Updting",
+      active: true,
+      description:
+        "Built a responsive portfolio using Next.js and TypeScript, with sleek animations from Framer Motion and dynamic UI components from Shadcn and Magic UI. Designed to showcase projects and skills with a modern, interactive interface.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Raect",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://portfolio-website-nu-lyart.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AyushRay06/portfolio-website",
+          icon: <Github className="size-3" />,
+        },
+      ],
+      image: "/port.png",
       video: "",
     },
   ],
@@ -223,23 +289,23 @@ export const DATA = {
       image: "/gdsc.png",
       links: [],
     },
-    {
-      title: "Girl Script Summer Of Code",
-      dates: "May 2023 - July 2024",
-      role: "Open-Source Contributer",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image: "/gssoc.jpg",
-    },
     // {
-    //   title: "Portal Hackathon",
-    //   dates: "October 29, 2016",
-    //   role: "Kingston, Ontario",
+    //   title: "Girl Script Summer Of Code",
+    //   dates: "May 2023 - July 2024",
+    //   role: "Open-Source Contributer",
     //   description:
-    //     "Developed an internal widget for uploading assignments using Waterloo's portal app",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+    //     "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+    //   icon: "public",
+    //   image: "/gssoc.jpg",
     // },
+    {
+      title: "Game og Codes Hackathon",
+      dates: "October 29, 2024",
+      role: "Won Hackathon.",
+      description:
+        "Developed an internal widget for uploading assignments using Waterloo's portal app",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+    },
   ],
 }
