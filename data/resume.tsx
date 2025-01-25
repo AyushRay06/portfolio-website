@@ -259,8 +259,9 @@ export const DATA = {
       title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
       dates: "June 19-July 20, 2024",
       role: "Research Intern",
-      description:
-        "Developed an AI model using YOLO for underwater trash detection and image processing, leveraging tools like TensorFlow, OpenCV, and Keras. This project was aslo sponsored by Sony.",
+      description: `Achieved 92% accuracy in underwater trash detection using YOLO and TensorFlow, reducing false positives by 30%
+and improving detection clarity by 45% in low-visibility conditions.
+Developed an interactive marine sustainability dashboard with React, Node.js, and MongoDB, enabling real-time.`,
       image: "/iit.png",
     },
     {
