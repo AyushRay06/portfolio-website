@@ -39,12 +39,16 @@ export function RetroGridDemo() {
       <h2 className="text-2xl font-bold sm:p-5">About</h2>
       <BlurFade>
         <Markdown className="prose  text-pretty font-sans text-sm md:text-lg  py-5 px-5 md:px-16  dark:prose-invert">
-          A passionate software developer with a deep love for coding and
-          exploring new technologies. My curiosity drives me to understand how
-          things work at their core. I &apos;ve had the privilege of leading
-          communities as a Google Developer Student Club Lead. My journey
-          includes contributing to open source and gaining valuable experience
-          through internships. I’m always eager to learn, build, and innovate.
+          I&apos;m a Software Engineer specializing in Full Stack Development
+          and AI agents, with a strong focus on building and deploying scalable,
+          high-performance applications. Skilled in modern web technologies,
+          I&apos;ve delivered impactful solutions through seamless integrations
+          and optimized Vercel deployments. As a former Google Developer Student
+          Club Lead, I guided a community of 500+ developers, organizing 20+
+          events to drive innovation. With experience in internships, freelance
+          projects, and open-source contributions, I&apos;m passionate about
+          crafting efficient, user-focused applications that solve real-world
+          problems.
         </Markdown>
       </BlurFade>
 
