@@ -20,7 +20,7 @@ export function WorkTimeline() {
             solving real-world challenges.
           </span>
           <div className="grid grid-cols-2 gap-4">
-            <Image
+            {/* <Image
               src="/work2/hack2.jpeg"
               alt="hero template"
               width={500}
@@ -33,7 +33,7 @@ export function WorkTimeline() {
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+            /> */}
           </div>
         </div>
       ),
@@ -43,13 +43,14 @@ export function WorkTimeline() {
       content: (
         <div>
           <span className="prose dark:prose-invert text-sm md:text-base text-muted-foreground">
-            Delivered 10+ talks as a Technical Speaker at GDSC events and
-            college tech fests, covering Git, GitHub, open source, Docker, and
-            software development. Focused on simplifying concepts and sharing
-            best practices.
+            Delivered 10+ technical talks at GDSC events and college tech fests,
+            educating 1000+ students on topics like Git, GitHub, open source,
+            Docker, and software development. Simplified complex concepts,
+            fostering participation in open-source contributions and adoption of
+            industry-standard software development practices.
           </span>
           <div className="mb-8"></div>
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <Image
               src="/work2/workshop.jpeg"
               alt="hero template"
@@ -64,7 +65,7 @@ export function WorkTimeline() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },
@@ -72,12 +73,12 @@ export function WorkTimeline() {
       title: "Opensource Contributer",
       content: (
         <div>
-          <Link href="https://github.com/AyushRay06">
+          {/* <Link href="https://github.com/AyushRay06">
             <Button className="mb-2">
               Github
               <GitHubLogoIcon className="h-6 w-6 ml-2" />
             </Button>
-          </Link>
+          </Link> */}
           <div className="prose dark:prose-invert text-sm md:text-base text-muted-foreground">
             I actively contribute to open source, focusing on improving projects
             by fixing bugs, adding features, and optimizing performance.
@@ -86,10 +87,10 @@ export function WorkTimeline() {
             allows me to give back and support the growth of open-source
             software.
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/os.png"
-              alt="startup template"
+              src="/work2/git.png"
+              alt="github"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -101,7 +102,7 @@ export function WorkTimeline() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },

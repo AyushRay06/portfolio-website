@@ -204,6 +204,7 @@ export const DATA = {
       video: "",
     },
   ],
+  //-------------------Education-------------------------------------
 
   education: [
     {
@@ -215,32 +216,72 @@ export const DATA = {
       end: "2026",
     },
 
-    {
-      school: "Vivekananda Kendra Vidyalaya",
-      href: "https://dibrugarh.vkv.in/",
-      degree: "High Secondary Education",
-      logoUrl: "/vkv.jpeg",
-      start: "",
-      end: "",
-    },
-  ],
-  hackathons: [
     // {
-    //   title: "ayush.com",
-    //   dates: "June 19-July 20, 2024",
-    //   role: "Sofware Developer Inter",
-    //   description:
-    //     "will be adding soon",
-    //   image:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-
-    //   links: [],
+    //   school: "Vivekananda Kendra Vidyalaya",
+    //   href: "https://dibrugarh.vkv.in/",
+    //   degree: "High Secondary Education",
+    //   logoUrl: "/vkv.jpeg",
+    //   start: "",
+    //   end: "",
     // },
+  ],
+  // ------------------Experience-----------------------------
+  hackathons: [
+    {
+      title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
+      dates: "June 2024-July 2024",
+      role: "Research Intern",
+      description: [
+        "Achieved 92% accuracy in underwater trash detection using YOLO and TensorFlow, reducing false positives by 30% and improving detection clarity by 45% in low-visibility conditions.",
+        "Developed an interactive marine sustainability dashboard with React, Node.js, and MongoDB, enabling real-time insights and data analysis.",
+      ],
+      image: "/iit.png",
+    },
+    // -----------------------------------------
+    {
+      title: "Game og Codes Hackathon",
+      dates: "October 29, 2024",
+      role: "Won Hackathon.",
+      description: [
+        `Secured 1st prize by demonstrating advanced full-stack skills in JavaScript, and real-time performance analytics.`,
+        `Reduced test creation time by 90% with an automated, one-click Excel-to-MCQ platform, supporting 500+ concurrent
+    users and 250 simultaneous tests using React, Next.js, Express, and MongoDB.`,
+      ],
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+    },
+    // -----------------------------------------
+    {
+      title: "Google Developer Student Club",
+      dates: "August 2023 - August 2024",
+      role: "GDSC Lead",
+      description: [
+        `Equippted students with industry-relevant skills in web development, AI/ML, and cloud computing, leading to
+90% more project submissions and 50+ members securing internships or certifications.`,
+
+        `Founded and led the GDSC chapter, growing a vibrant 500+ member community, Organized 20+ workshops, 10+
+tech talks, hackathons. Achieving Tier 1 global recognition for impactful contributions to student learning.`,
+      ],
+      icon: "public",
+      image: "/gdsc.png",
+      links: [
+        {
+          title: "GDSC Dibrigarh University",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://gdsc.community.dev/dibrugarh-university-dibrugarh-india/",
+        },
+      ],
+    },
+    // ------------------------------------------------
     {
       title: "Metapoise",
       dates: "September 15-September 20, 2024",
       role: "Frotend Developer | Freelance work",
-      description: `I developed a responsive website for Metapoise, showcasing the fest’s mission, vision, events, and registration features. It provides a seamless user experience with modern design and smooth performance across devices.Key Technologies: Next.js, Tailwind CSS, TypeScript, React, Shadcn, Framer Motion.`,
+      description: [
+        `Developed a dynamic platform to showcase events, coordinators, and sponsors, enabling real-time content updates.`,
+        `Boosted user engagement by 40% by designing a responsive, interactive website with Next.js, React, Framer
+        Motion, and Tailwind CSS, optimized for 5+ device types.`,
+      ],
       image: "/MetaPoise.webp",
       links: [
         {
@@ -255,58 +296,21 @@ export const DATA = {
         },
       ],
     },
-    {
-      title: "Indian Institute of Technology Guwahati (IIT-Guwahati)",
-      dates: "June 19-July 20, 2024",
-      role: "Research Intern",
-      description: `Achieved 92% accuracy in underwater trash detection using YOLO and TensorFlow, reducing false positives by 30%
-and improving detection clarity by 45% in low-visibility conditions.
-Developed an interactive marine sustainability dashboard with React, Node.js, and MongoDB, enabling real-time.`,
-      image: "/iit.png",
-    },
-    {
-      title: "Google Developer Student Club",
-      dates: "August 2023 - August 2024",
-      role: "GDSC Lead",
-      description:
-        "As the GDSC Lead from, I founded the club, built a community of 200+ members, and organized 10+ tech events on cloud, AI/ML, and software development. I also hosted hackathons, collaborated with universities, and achieved Tier One Club status globally.",
-      icon: "public",
-      image: "/gdsc.png",
-      links: [
-        {
-          title: "GDSC Dibrigarh University",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://gdsc.community.dev/dibrugarh-university-dibrugarh-india/",
-        },
-      ],
-    },
+    // ---------------------------------------------
     {
       title: "Google Developer Student Club",
       dates: "September 2023 - November 2023",
       role: "Goggle Cloud Facilitator",
-      description:
-        "Guided over 150 students in mastering Google Cloud technology, including services like Compute Engine, Kubernetes, Cloud Storage, and BigQuery. Explained cloud concepts and platform-independent technologies, ensuring students achieved their milestones through a solid understanding of cloud fundamentals.",
+      description: [
+        `Achieved Tier 1 global recognition by mentoring 1000+ students in scalable web app development and enabling 200+
+        to earn Google Cloud Skill Badges, leveraging Kubernetes, Docker, and CI/CD.`,
+        `Conducted 15+ workshops on React, Node.js, Express.js, MongoDB, and Google Cloud services like Compute
+        Engine, Cloud Functions, and VPC`,
+      ],
       icon: "public",
       image: "/gdsc.png",
       links: [],
     },
-    // {
-    //   title: "Girl Script Summer Of Code",
-    //   dates: "May 2023 - July 2024",
-    //   role: "Open-Source Contributer",
-    //   description:
-    //     "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-    //   icon: "public",
-    //   image: "/gssoc.jpg",
-    // },
-    {
-      title: "Game og Codes Hackathon",
-      dates: "October 29, 2024",
-      role: "Won Hackathon.",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-    },
   ],
 }
+// -------------------------------------------------------------------------------------------

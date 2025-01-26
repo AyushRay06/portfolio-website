@@ -4,7 +4,7 @@ import Link from "next/link"
 
 interface Props {
   title: string
-  description: string
+  description: string[]
   dates: string
   role: string
   image?: string
@@ -14,7 +14,6 @@ interface Props {
     href: string
   }[]
 }
-
 export function ExperienceCard({
   title,
   description,
@@ -43,10 +42,12 @@ export function ExperienceCard({
             {role}
           </p>
         )}
-        {description && (
-          <span className="prose dark:prose-invert text-sm md:text-base text-muted-foreground">
-            {description}
-          </span>
+        {description && Array.isArray(description) && (
+          <ul className="list-disc ml-6 text-sm md:text-base text-muted-foreground">
+            {description.map((point, idx) => (
+              <li key={idx}>{point}</li>
+            ))}
+          </ul>
         )}
       </div>
       {links && links.length > 0 && (
