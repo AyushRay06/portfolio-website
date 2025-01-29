@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import { Space_Grotesk } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import TextIconCursor from "@/components/trailing-cursor"
+import TrailingCursor from "@/components/trailing-cursor"
 
 const SpaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
@@ -25,6 +27,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <TrailingCursor />
         </ThemeProvider>
       </body>
     </html>
