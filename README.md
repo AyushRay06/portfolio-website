@@ -24,7 +24,6 @@ This portfolio website exists for one simple reason: to showcase my remarkable a
   - Tailwind CSS (not that I needed it, but why not show off?)
 - **Backend**:
   - There is none. This is a portfolio, not a complex web app. 😎
-- **Extras**:
-  - GitHub Pages (if it’s good enough for my code, it’s good enough for my portfolio)
+
 
 # Please don’t copy my portfolio, it's too good to be replicated.
